@@ -1,6 +1,6 @@
 	db CRYOGONAL ; 063
 
-	db  70,  50,  30, 105,  95, 135
+	db  80,  50,  50, 105,  95, 135
 	;   hp  atk  def  spd  sat  sdf
 
 	db ICE, ICE ; type
