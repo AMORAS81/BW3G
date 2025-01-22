@@ -1,6 +1,6 @@
 	db STOUTLAND ; 063
 
-	db  85, 100,  90,  80,  45,  90
+	db  85, 110,  90,  80,  45,  90
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, NORMAL ; type
