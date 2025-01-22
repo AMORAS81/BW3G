@@ -1,6 +1,6 @@
 	db BEARTIC ; 063
 
-	db  95, 110,  80,  50,  70,  80
+	db  95, 130,  80,  50,  70,  80
 	;   hp  atk  def  spd  sat  sdf
 
 	db ICE, ICE ; type
