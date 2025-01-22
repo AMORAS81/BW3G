@@ -1,6 +1,6 @@
 	db CRUSTLE ; 063
 
-	db  70,  95, 125,  45,  65,  75
+	db  70,  105, 125,  45,  65,  75
 	;   hp  atk  def  spd  sat  sdf
 
 	db BUG, ROCK ; type
