@@ -1,9 +1,9 @@
 INCLUDE "engine/gfx/sgb_layouts.asm"
 
 SHINY_ATK_BIT EQU 5
-SHINY_DEF_VAL EQU 10
-SHINY_SPD_VAL EQU 10
-SHINY_SPC_VAL EQU 10
+SHINY_DEF_VAL EQU 13
+SHINY_SPD_VAL EQU 13
+SHINY_SPC_VAL EQU 13
 
 CheckShininess:
 ; Check if a mon is shiny by DVs at bc.
