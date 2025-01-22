@@ -1,6 +1,6 @@
 	db ROSERADE ; 183
 
-	db  60,  70,  55,  90, 125, 105
+	db  60,  70,  65,  90, 125, 105
 	;   hp  atk  def  spd  sat  sdf
 
 	db GRASS, POISON ; type
