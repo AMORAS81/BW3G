@@ -1,6 +1,6 @@
 	db GIGALITH ; 063
 
-	db  85, 135, 130,  25,  60,  70
+	db  85, 135, 130,  25,  60,  80
 	;   hp  atk  def  spd  sat  sdf
 
 	db ROCK, ROCK ; type
