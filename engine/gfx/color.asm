@@ -2,7 +2,7 @@ INCLUDE "engine/gfx/sgb_layouts.asm"
 
 SHINY_ATK_BIT EQU 5
 SHINY_DEF_VAL EQU 13
-SHINY_SPD_VAL EQU 15
+SHINY_SPD_VAL EQU 10
 SHINY_SPC_VAL EQU 13
 
 CheckShininess:
@@ -25,9 +25,8 @@ CheckShininess:
 
 ; Speed
 	ld a, [hl]
-	and $f0
-	cp  SHINY_SPD_VAL << 4
-	jr nz, .NotShiny
+	cp 10 << 4
+	jr c, .NotShiny
 
 ; Special
 	ld a, [hl]
