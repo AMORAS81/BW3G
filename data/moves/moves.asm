@@ -80,7 +80,7 @@ Moves:
 	move MIST,         EFFECT_MIST,                0, ICE, STATUS,        100, 30,   0
 	move HAZE,         EFFECT_RESET_STATS,         0, ICE, STATUS,        100, 30,   0
 	move HAIL,         EFFECT_HAIL,                0, ICE, STATUS,        100, 10,   0
-	move LEECH_LIFE,   EFFECT_LEECH_HIT,          20, BUG, PHYSICAL,      100, 15,   0
+	move LEECH_LIFE,   EFFECT_LEECH_HIT,          80, BUG, PHYSICAL,      100, 15,   0
 	move FURY_CUTTER,  EFFECT_FURY_CUTTER,        40, BUG, PHYSICAL,       95, 20,   0
 	move PIN_MISSILE,  EFFECT_MULTI_HIT,          25, BUG, PHYSICAL,       95, 20,   0
 	move BUG_BITE,     EFFECT_BUG_BITE,           60, BUG, PHYSICAL,      100, 20,   0
