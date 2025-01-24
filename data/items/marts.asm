@@ -87,9 +87,8 @@ MartMerchant2:
 	db -1 ; end
 
 MartBoutique:
-	db 6 ; # items
+	db 5 ; # items
 	db BLACKGLASSES
-	db PINK_BOW
 	db BLACKBELT
 	db MUSCLE_BAND
 	db WISE_GLASSES
@@ -149,11 +148,12 @@ MartMall4:
 	db -1 ; end
 
 MartMall5:
-	db 4 ; # items
+	db 5 ; # items
 	db LEAF_STONE
 	db FIRE_STONE
 	db WATER_STONE
 	db THUNDERSTONE
+	db LINKING_CORD
 	db -1 ; end
 
 MartMembers1:
