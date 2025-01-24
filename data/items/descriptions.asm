@@ -103,7 +103,7 @@ ItemDescriptions:
 	dw PnkApricornDesc
 	dw BlackGlassesDesc
 	dw BlackSludgeDesc
-	dw PinkBowDesc
+	dw LinkingCordDesc
 	dw FocusSashDesc
 	dw SmokeBallDesc
 	dw NeverMeltIceDesc
@@ -665,9 +665,9 @@ BlackSludgeDesc:
 	db   "Heal poison-types"
 	next "in battle. (HOLD)@"
 
-PinkBowDesc:
-	db   "Powers up fairy-"
-	next "type moves. (HOLD)@"
+LinkingCordDesc:
+	db   "Evolves certain"
+	next "kinds of #MON.@"
 
 FocusSashDesc:
 	db   "Prevents one-hit"
