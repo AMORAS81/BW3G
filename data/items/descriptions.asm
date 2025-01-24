@@ -169,7 +169,7 @@ ItemDescriptions:
 	dw NormalBoxDesc
 	dw GorgeousBoxDesc
 	dw SunStoneDesc
-	dw PolkadotBowDesc
+	dw AncientOrbDesc
 	dw EvioliteDesc
 	dw LiftKeyDesc
 	dw BerryDesc
@@ -928,9 +928,9 @@ SunStoneDesc:
 	db   "Evolves certain"
 	next "kinds of #MON.@"
 
-PolkadotBowDesc:
-	db   "Powers up normal-"
-	next "type moves. (HOLD)@"
+AncientOrbDesc:
+	db   "An orb that holds"
+	next "an ancient power@"
 
 EvioliteDesc:
 	db   "Boosts defenses of"
