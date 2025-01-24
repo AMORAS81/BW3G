@@ -157,7 +157,7 @@ MartMall5:
 	db -1 ; end
 
 MartMembers1:
-	db 8 ; # items
+	db 9 ; # items
 	db DAWN_STONE
 	db ELECTRIZER
 	db MAGMARIZER
@@ -166,6 +166,7 @@ MartMembers1:
 	db RAZOR_CLAW
 	db RAZOR_FANG
 	db METAL_COAT
+	db ANCIENT_ORB
 	db -1 ; end
 
 MartMembers2:
