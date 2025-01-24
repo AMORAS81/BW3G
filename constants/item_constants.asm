@@ -175,7 +175,7 @@
 	const NORMAL_BOX   ; a7
 	const GORGEOUS_BOX ; a8
 	const SUN_STONE    ; a9
-	const POLKADOT_BOW ; aa
+	const ANCIENT_ORB  ; aa
 	const EVIOLITE     ; ab
 	const LIFT_KEY     ; ac
 	const BERRY        ; ad
