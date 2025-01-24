@@ -116,7 +116,7 @@ ItemEffects:
 	dw NoEffect            ; PNK_APRICORN
 	dw NoEffect            ; BLACKGLASSES
 	dw NoEffect            ; BLACK_SLUDGE
-	dw NoEffect            ; PINK_BOW
+	dw EvoStoneEffect      ; LINKING_CORD
 	dw NoEffect            ; FOCUS_SASH
 	dw NoEffect            ; SMOKE_BALL
 	dw NoEffect            ; NEVERMELTICE
