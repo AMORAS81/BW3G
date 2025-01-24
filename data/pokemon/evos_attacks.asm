@@ -836,7 +836,7 @@ RoggenrolaEvosAttacks:
 	db 0 ; no more level-up moves
 
 BoldoreEvosAttacks:
-	db EVOLVE_LEVEL, 40, GIGALITH
+	db EVOLVE_ITEM, LINKING_CORD, GIGALITH
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 4, HARDEN
@@ -1471,7 +1471,7 @@ TimburrEvosAttacks:
 	db 0 ; no more level-up moves
 
 GurdurrEvosAttacks:
-	db EVOLVE_LEVEL, 40, CONKELDURR
+	db EVOLVE_ITEM, LINKING_CORD, CONKELDURR
 	db 0 ; no more evolutions
 	db 1, TACKLE ; Pound
 	db 1, LEER
@@ -1935,7 +1935,7 @@ GastlyEvosAttacks:
 	db 0 ; no more level-up moves
 
 HaunterEvosAttacks:
-	db EVOLVE_LEVEL, 40, GENGAR
+	db EVOLVE_ITEM, LINKING_CORD, GENGAR
 	db 0 ; no more evolutions
 	db 1, LICK
 	db 1, HYPNOSIS
