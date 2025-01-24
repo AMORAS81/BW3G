@@ -102,7 +102,7 @@ ItemNames::
 	db "PNK APRICORN@"
 	db "BLACKGLASSES@"
 	db "BLACK SLUDGE@"
-	db "PINK BOW@"
+	db "LINKING CORD@"
 	db "FOCUS SASH@"
 	db "SMOKE BALL@"
 	db "NEVERMELTICE@"
