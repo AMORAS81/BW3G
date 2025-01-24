@@ -394,6 +394,7 @@ JigglypuffEvosAttacks:
 	db EVOLVE_ITEM, MOON_STONE, WIGGLYTUFF
 	db 0 ; no more evolutions
 	db 1, TACKLE ; Pound, switched with Sing
+	db 1, NASTY_PLOT
 	db 3, DEFENSE_CURL
 	db 5, SING ; Switched with Pound
 	db 9, GROWL ; Play Nice
@@ -420,6 +421,7 @@ WigglytuffEvosAttacks:
 	db 1, DEFENSE_CURL
 	db 1, DISABLE
 	db 1, DOUBLESLAP
+	db 1, NASTY_PLOT
 	db 0 ; no more level-up moves
 
 AzurillEvosAttacks:
