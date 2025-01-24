@@ -168,7 +168,7 @@ ItemNames::
 	db "NORMAL BOX@"
 	db "GORGEOUS BOX@"
 	db "SUN STONE@"
-	db "POLKADOT BOW@"
+	db "ANCIENT GEN@"
 	db "EVIOLITE@"
 	db "LIFT KEY@"
 	db "ORAN BERRY@"
