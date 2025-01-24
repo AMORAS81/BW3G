@@ -1284,6 +1284,7 @@ MareepEvosAttacks:
 	db 32, DISCHARGE
 	db 36, REFLECT ; Cotton Guard
 	db 39, SIGNAL_BEAM
+	db 41, DAZZLINGLEAM
 	db 43, LIGHT_SCREEN
 	db 46, THUNDER
 	db 0 ; no more level-up moves
@@ -1304,6 +1305,7 @@ FlaaffyEvosAttacks:
 	db 38, DISCHARGE
 	db 43, REFLECT ; Cotton Guard
 	db 47, SIGNAL_BEAM
+	db 50, DAZZLINGLEAM
 	db 52, LIGHT_SCREEN
 	db 56, THUNDER
 	db 0 ; no more level-up moves
@@ -1330,6 +1332,7 @@ AmpharosEvosAttacks:
 	db 40, DISCHARGE
 	db 46, REFLECT ; Cotton Guard
 	db 51, SIGNAL_BEAM
+	db 54, DAZZLINGLEAM
 	db 57, LIGHT_SCREEN
 	db 62, THUNDER
 	db 65, DRAGON_PULSE
@@ -3734,6 +3737,7 @@ EspeonEvosAttacks:
 	db 1, CONFUSION
 	db 1, TACKLE
 	db 1, TAIL_WHIP
+	db 1, POWER_GEM
 	db 5, SAND_ATTACK
 	db 13, QUICK_ATTACK
 	db 17, SWIFT
