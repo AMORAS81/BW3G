@@ -109,7 +109,7 @@
 	const PNK_APRICORN ; 65
 	const BLACKGLASSES ; 66
 	const BLACK_SLUDGE ; 67
-	const PINK_BOW     ; 68
+	const LINKING_CORD ; 68
 	const FOCUS_SASH   ; 69
 	const SMOKE_BALL   ; 6a
 	const NEVERMELTICE ; 6b
