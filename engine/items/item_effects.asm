@@ -182,7 +182,7 @@ ItemEffects:
 	dw NormalBoxEffect     ; NORMAL_BOX
 	dw GorgeousBoxEffect   ; GORGEOUS_BOX
 	dw EvoStoneEffect      ; SUN_STONE
-	dw NoEffect            ; POLKADOT_BOW
+	dw NoEffect            ; ANCIENT_ORB
 	dw NoEffect            ; EVIOLITE
 	dw NoEffect            ; LIFT_KEY
 	dw RestoreHPEffect     ; BERRY
