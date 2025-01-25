@@ -2625,7 +2625,7 @@ EscavalierEvosAttacks:
 ShelmetEvosAttacks:
 	db EVOLVE_ITEM, SHELL_STONE, ACCELGOR
 	db 0 ; no more evolutions
-	db 1, LEECH_LIFE ; Absorb
+	db 1, ABSORB
 	db 4, ACID
 	db 8, DEFENSE_CURL ; Bide
 	db 13, CURSE
@@ -2646,8 +2646,8 @@ AccelgorEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, CALM_MIND ; Power Swap
 	db 1, AURA_SPHERE ; Final Gambit
-	db 1, LEECH_LIFE ; Absorb
-	db 1, ACID ; Acid Spray
+	db 1, ABSORB
+	db 1, LEECH_LIFE ; Acid Spray
 	db 1, DOUBLE_TEAM
 	db 1, QUICK_ATTACK
 	db 4, ACID ; Acid Spray
@@ -4678,10 +4678,11 @@ LarvestaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, EMBER
 	db 1, STRING_SHOT
-	db 10, LEECH_LIFE ; Absorb
+	db 10, ABSORB
 	db 20, TAKE_DOWN
 	; Skipped Flame Charge
 	db 30, BUG_BITE
+	db 36, LEECH_LIFE
 	db 40, DOUBLE_EDGE
 	db 50, FLAME_WHEEL
 	db 60, BUG_BUZZ
@@ -4701,7 +4702,7 @@ VolcaronaEvosAttacks:
 	db 1, STRING_SHOT
 	db 1, LEECH_LIFE ; Absorb
 	db 1, GUST
-	db 10, LEECH_LIFE ; Absorb
+	db 10, ABSORB
 	db 20, GUST
 	db 30, FIRE_SPIN
 	db 40, WHIRLWIND
