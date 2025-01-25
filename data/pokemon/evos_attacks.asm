@@ -4188,6 +4188,7 @@ AxewEvosAttacks:
 	db 36, SWAGGER ; Taunt
 	db 41, DRAGON_PULSE
 	db 46, SWORDS_DANCE
+	db 48, IRON_HEAD
 	db 50, BELLY_DRUM ; Guillotine
 	db 56, OUTRAGE
 	db 61, GIGA_IMPACT
@@ -4209,6 +4210,7 @@ FraxureEvosAttacks:
 	db 36, SWAGGER ; Taunt
 	db 42, DRAGON_PULSE
 	db 48, SWORDS_DANCE
+	db 52, IRON_HEAD
 	db 54, BELLY_DRUM ; Guillotine
 	db 60, OUTRAGE
 	db 66, GIGA_IMPACT
@@ -4233,6 +4235,7 @@ HaxorusEvosAttacks:
 	db 36, SWAGGER ; Taunt
 	db 42, DRAGON_PULSE
 	db 48, SWORDS_DANCE
+	db 54, IRON_HEAD
 	db 58, BELLY_DRUM ; Guillotine
 	db 66, OUTRAGE
 	db 74, GIGA_IMPACT
