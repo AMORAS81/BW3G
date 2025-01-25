@@ -716,7 +716,7 @@ SeismitoadEvosAttacks:
 ZubatEvosAttacks:
 	db EVOLVE_LEVEL, 22, GOLBAT
 	db 0 ; no more evolutions
-	db 1, LEECH_LIFE ; Absorb
+	db 1, ABSORB
 	db 5, SUPERSONIC
 	db 7, POISON_STING ; Astonish
 	db 11, BITE
@@ -726,7 +726,7 @@ ZubatEvosAttacks:
 	db 23, SWIFT
 	db 25, POISON_FANG
 	db 29, MEAN_LOOK
-	db 31, GIGA_DRAIN ; Leech Life
+	db 31, LEECH LIFE
 	db 35, HAZE
 	db 37, VENOSHOCK
 	db 41, AIR_SLASH
@@ -736,7 +736,7 @@ ZubatEvosAttacks:
 GolbatEvosAttacks:
 	db EVOLVE_HAPPINESS, TR_ANYTIME, CROBAT
 	db 0 ; no more evolutions
-	db 1, LEECH_LIFE ; Absorb
+	db 1, ABSORB
 	db 5, SUPERSONIC
 	db 7, POISON_STING ; Astonish
 	db 11, BITE
@@ -747,7 +747,7 @@ GolbatEvosAttacks:
 	db 24, SWIFT
 	db 27, POISON_FANG
 	db 32, MEAN_LOOK
-	db 35, GIGA_DRAIN ; Leech Life
+	db 35, LEECH LIFE
 	db 40, HAZE
 	db 43, VENOSHOCK
 	db 48, AIR_SLASH
@@ -758,7 +758,7 @@ CrobatEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, CROSS_POISON
 	db 1, SCREECH
-	db 1, LEECH_LIFE ; Absorb
+	db 1, ABSORB
 	db 1, SUPERSONIC
 	db 1, POISON_STING ; Astonish
 	db 1, BITE
@@ -772,7 +772,7 @@ CrobatEvosAttacks:
 	db 24, SWIFT
 	db 27, POISON_FANG
 	db 32, MEAN_LOOK
-	db 35, GIGA_DRAIN ; Leech Life
+	db 35, LEECH LIFE
 	db 40, HAZE
 	db 43, VENOSHOCK
 	db 48, AIR_SLASH
