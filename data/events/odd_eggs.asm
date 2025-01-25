@@ -74,7 +74,7 @@ OddEggs:
 
 	db IGGLYBUFF
 	db NO_ITEM
-	db SING, CHARM, DIZZY_PUNCH, CALM_MIND
+	db SING, CHARM, DIZZY_PUNCH, TRI_ATTACK
 	dw 04096 ; OT ID
 	dt 125 ; Exp
 	; Stat exp
@@ -100,7 +100,7 @@ OddEggs:
 
 	db IGGLYBUFF
 	db NO_ITEM
-	db SING, CHARM, DIZZY_PUNCH, CALM_MIND
+	db SING, CHARM, DIZZY_PUNCH, TRI_ATTACK
 	dw 00768 ; OT ID
 	dt 125 ; Exp
 	; Stat exp
