@@ -140,7 +140,7 @@ Moves:
 	move MIRROR_COAT,  EFFECT_MIRROR_COAT,         1, PSYCHIC, SPECIAL,   100, 20,   0
 	move AGILITY,      EFFECT_SPEED_UP_2,          0, PSYCHIC, STATUS,    100, 30,   0
 	move AMNESIA,      EFFECT_SP_DEF_UP_2,         0, PSYCHIC, STATUS,    100, 20,   0
-	move REST,         EFFECT_HEAL,                0, PSYCHIC, STATUS,    100, 10,   0
+	move REST,         EFFECT_HEAL,                0, PSYCHIC, STATUS,    100,  5,   0
 	move HYPNOSIS,     EFFECT_SLEEP,               0, PSYCHIC, STATUS,     60, 20,   0
 	move REFLECT,      EFFECT_REFLECT,             0, PSYCHIC, STATUS,    100, 20,   0
 	move LIGHT_SCREEN, EFFECT_LIGHT_SCREEN,        0, PSYCHIC, STATUS,    100, 30,   0
@@ -249,7 +249,7 @@ Moves:
 	move SING,         EFFECT_SLEEP,               0, NORMAL, STATUS,      55, 15,   0
 	move SUPERSONIC,   EFFECT_CONFUSE,             0, NORMAL, STATUS,      55, 20,   0
 	move DISABLE,      EFFECT_DISABLE,             0, NORMAL, STATUS,     100, 20,   0
-	move RECOVER,      EFFECT_HEAL,                0, NORMAL, STATUS,     100, 10,   0
+	move RECOVER,      EFFECT_HEAL,                0, NORMAL, STATUS,     100,  5,   0
 	move WHIRLWIND,    EFFECT_FORCE_SWITCH,        0, NORMAL, STATUS,     100, 20,   0
 	move ROAR,         EFFECT_FORCE_SWITCH,        0, NORMAL, STATUS,     100, 20,   0
 	move FOCUS_ENERGY, EFFECT_FOCUS_ENERGY,        0, NORMAL, STATUS,     100, 30,   0
