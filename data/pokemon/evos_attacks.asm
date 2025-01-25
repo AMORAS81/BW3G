@@ -4058,6 +4058,7 @@ TropiusEvosAttacks:
 	db 41, BODY_SLAM
 	db 46, DOUBLE_EDGE ; Bestow
 	db 50, SYNTHESIS
+	db 53, HURRICANE
 	db 56, SOLARBEAM
 	db 61, WOOD_HAMMER ; Leaf Storm
 	db 0 ; no more level-up moves
