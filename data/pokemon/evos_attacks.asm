@@ -1188,6 +1188,7 @@ GardevoirEvosAttacks:
 	db 1, CONFUSION
 	db 1, DOUBLE_TEAM
 	db 1, FAIRY_WIND
+	db 1, AURA_SPHERE
 	db 4, CONFUSION
 	db 6, DOUBLE_TEAM
 	db 11, FAIRY_WIND ; Disarming Voice
@@ -2184,6 +2185,7 @@ BreloomEvosAttacks:
 	db 39, DRAIN_PUNCH ; Sky Uppercut
 	db 44, SEED_BOMB
 	db 50, DYNAMICPUNCH
+	db 55, CLOSE_COMBAT
 	db 0 ; no more level-up moves
 
 JoltikEvosAttacks:
@@ -4651,6 +4653,7 @@ TyranitarEvosAttacks:
 	db 1, LEER
 	db 1, SANDSTORM
 	db 1, SCREECH
+	db 1, POWER_GEM
 	db 5, SANDSTORM
 	db 10, SCREECH
 	db 14, BODY_SLAM ; Chip Away
