@@ -2095,6 +2095,7 @@ LilligantEvosAttacks:
 	db 1, LEECH_SEED
 	db 1, MEGA_DRAIN
 	db 1, SYNTHESIS
+	db 1, DAZZLINGLEAM
 	db 10, SWEET_KISS ; Teeter Dance
 	db 28, QUIVER_DANCE
 	db 46, PETAL_DANCE
