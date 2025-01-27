@@ -162,8 +162,7 @@ MartMall5:
 	db -1 ; end
 
 MartMembers1:
-	db 9 ; # items
-	db DAWN_STONE
+	db 8 ; # items
 	db ELECTRIZER
 	db MAGMARIZER
 	db DRAGON_SCALE
