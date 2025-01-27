@@ -11,7 +11,7 @@ TrainerClassDVs:
 	dn  7, 12, 12,  8 ; ACE_TRAINER_F_D
 	dn  9,  8,  8,  8 ; ARTIST
 	dn  9,  8,  8,  8 ; BACKERS_M
-	dn  6, 10, 10,  8 ; BACKERS_F
+	dn  6, 11, 11,  9 ; BACKERS_F
 	dn  9,  8,  8,  8 ; BACKPACKER_M
 	dn  6, 11, 11,  9 ; BACKPACKER_F
 	dn  6, 13,  9,  9 ; BAKER
