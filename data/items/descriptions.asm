@@ -880,9 +880,9 @@ HeavyBallDesc:
 	db   "A BALL for catch-"
 	next "ing heavy #MON.@"
 
-FlowerMailDesc:
-	db   "Flower-print MAIL."
-	next "(HOLD)@"
+ShinyStoneDesc:
+	db   "Evolves certain"
+	next "kinds of #MON.@"
 
 LevelBallDesc:
 	db   "A BALL for lower-"
