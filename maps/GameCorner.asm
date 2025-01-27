@@ -73,14 +73,14 @@ GameCornerVendor1_LoopScript:
 	jump GameCornerVendor1_FinishScript
 
 .RareCandy:
-	checkcoins 100
+	checkcoins 500
 	ifequal HAVE_LESS, GameCornerPrizeVendor_NotEnoughCoinsScript
 	itemtotext RARE_CANDY, MEM_BUFFER_0
 	scall GameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse GameCornerPrizeVendor_CancelPurchaseScript
 	giveitem RARE_CANDY
 	iffalse GameCornerPrizeMonVendor_NoRoomForPrizeScript
-	takecoins 100
+	takecoins 500
 	jump GameCornerVendor1_FinishScript
 
 
@@ -132,7 +132,7 @@ GameCornerVendor1MenuHeader:
 	db "CHOICE BAND  1000@"
 	db "CHOICE SCARF 1000@"
 	db "CHOICE SPECS 1000@"
-	db "RARE CANDY    100@"
+	db "RARE CANDY    500@"
 	db "CANCEL@"
 
 GameCornerVendor2Script:
