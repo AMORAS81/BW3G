@@ -2356,7 +2356,7 @@ MagnemiteEvosAttacks:
 	db 0 ; no more level-up moves
 
 MagnetonEvosAttacks:
-	db EVOLVE_HOLD, METAL_COAT, TR_ANYTIME, MAGNEZONE
+	db EVOLVE_ITEM, THUNDERSTONE, MAGNEZONE
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, SUPERSONIC
