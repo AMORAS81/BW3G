@@ -2006,7 +2006,7 @@ LitwickEvosAttacks:
 	db 0 ; no more level-up moves
 
 LampentEvosAttacks:
-	db EVOLVE_ITEM, FIRE_STONE, CHANDELURE
+	db EVOLVE_ITEM, DUSK_STONE, CHANDELURE
 	db 0 ; no more evolutions
 	db 1, EMBER
 	db 1, LICK ; Astonish
