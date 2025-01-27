@@ -33,43 +33,56 @@ GameCornerVendor1_LoopScript:
 	loadmenu GameCornerVendor1MenuHeader
 	verticalmenu
 	closewindow
-	ifequal 1, .MoonStone
-	ifequal 2, .IceStone
-	ifequal 3, .ShellStone
+	ifequal 1, .ChoiceBand
+	ifequal 2, .ChoiceScarf
+	ifequal 3, .ChoiceSpecs
+	ifequal 4, .RareCandy
 	jump GameCornerPrizeVendor_CancelPurchaseScript
 
-.MoonStone:
-	checkcoins 500
-	ifequal HAVE_LESS, GameCornerPrizeVendor_NotEnoughCoinsScript
-	itemtotext MOON_STONE, MEM_BUFFER_0
-	scall GameCornerPrizeVendor_ConfirmPurchaseScript
-	iffalse GameCornerPrizeVendor_CancelPurchaseScript
-	giveitem MOON_STONE
-	iffalse GameCornerPrizeMonVendor_NoRoomForPrizeScript
-	takecoins 500
-	jump GameCornerVendor1_FinishScript
-
-.IceStone:
-	checkcoins 700
-	ifequal HAVE_LESS, GameCornerPrizeVendor_NotEnoughCoinsScript
-	itemtotext ICE_STONE, MEM_BUFFER_0
-	scall GameCornerPrizeVendor_ConfirmPurchaseScript
-	iffalse GameCornerPrizeVendor_CancelPurchaseScript
-	giveitem ICE_STONE
-	iffalse GameCornerPrizeMonVendor_NoRoomForPrizeScript
-	takecoins 700
-	jump GameCornerVendor1_FinishScript
-
-.ShellStone:
+.ChoiceBand:
 	checkcoins 1000
 	ifequal HAVE_LESS, GameCornerPrizeVendor_NotEnoughCoinsScript
-	itemtotext SHELL_STONE, MEM_BUFFER_0
+	itemtotext CHOICE_BAND, MEM_BUFFER_0
 	scall GameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse GameCornerPrizeVendor_CancelPurchaseScript
-	giveitem SHELL_STONE
+	giveitem CHOICE_BAND
 	iffalse GameCornerPrizeMonVendor_NoRoomForPrizeScript
 	takecoins 1000
 	jump GameCornerVendor1_FinishScript
+
+.ChoiceScarf:
+	checkcoins 1000
+	ifequal HAVE_LESS, GameCornerPrizeVendor_NotEnoughCoinsScript
+	itemtotext CHOICE_SCARF, MEM_BUFFER_0
+	scall GameCornerPrizeVendor_ConfirmPurchaseScript
+	iffalse GameCornerPrizeVendor_CancelPurchaseScript
+	giveitem CHOICE_SCARF
+	iffalse GameCornerPrizeMonVendor_NoRoomForPrizeScript
+	takecoins 1000
+	jump GameCornerVendor1_FinishScript
+
+.ChoiceSpecs:
+	checkcoins 1000
+	ifequal HAVE_LESS, GameCornerPrizeVendor_NotEnoughCoinsScript
+	itemtotext CHOICE_SPECS, MEM_BUFFER_0
+	scall GameCornerPrizeVendor_ConfirmPurchaseScript
+	iffalse GameCornerPrizeVendor_CancelPurchaseScript
+	giveitem CHOICE_SPECS
+	iffalse GameCornerPrizeMonVendor_NoRoomForPrizeScript
+	takecoins 1000
+	jump GameCornerVendor1_FinishScript
+
+.RareCandy:
+	checkcoins 100
+	ifequal HAVE_LESS, GameCornerPrizeVendor_NotEnoughCoinsScript
+	itemtotext RARE_CANDY, MEM_BUFFER_0
+	scall GameCornerPrizeVendor_ConfirmPurchaseScript
+	iffalse GameCornerPrizeVendor_CancelPurchaseScript
+	giveitem RARE_CANDY
+	iffalse GameCornerPrizeMonVendor_NoRoomForPrizeScript
+	takecoins 100
+	jump GameCornerVendor1_FinishScript
+
 
 GameCornerPrizeVendor_ConfirmPurchaseScript:
 	writetext GameCornerPrizeVendorConfirmPrizeText
@@ -115,10 +128,11 @@ GameCornerVendor1MenuHeader:
 
 .MenuData:
 	db STATICMENU_CURSOR ; flags
-	db 4 ; items
-	db "MOON STONE   500@"
-	db "ICE STONE    700@"
-	db "SHELL STONE 1000@"
+	db 5 ; items
+	db "CHOICE BAND  1000@"
+	db "CHOICE SCARF 1000@"
+	db "CHOICE SPECS 1000@"
+	db "RARE CANDY    100@"
 	db "CANCEL@"
 
 GameCornerVendor2Script:
@@ -361,8 +375,8 @@ GameCornerCooltrainerFText:
 	done
 
 GameCornerGentlemanText:
-	text "I used an ICE"
-	line "STONE on my #-"
+	text "I used an RARE"
+	line "CANDY on my #-"
 	cont "MON."
 
 	para "It was hard to get"
