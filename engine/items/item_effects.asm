@@ -164,7 +164,7 @@ ItemEffects:
 	dw NoEffect            ; RAZOR_FANG
 	dw RestorePPEffect     ; MYSTERYBERRY
 	dw NoEffect            ; DRAGON_SCALE
-	dw NoEffect            ; BERSERK_GENE
+	dw EvoStoneEffect      ; DUSK_STONE
 	dw RestorePPEffect     ; PP_MAX
 	dw NoEffect            ; LIFE_ORB
 	dw PokeBallEffect      ; NET_BALL
