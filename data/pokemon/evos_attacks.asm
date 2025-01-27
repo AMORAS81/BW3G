@@ -2035,7 +2035,7 @@ ChandelureEvosAttacks:
 	db 0 ; no more level-up moves
 
 CottoneeEvosAttacks:
-	db EVOLVE_ITEM, LEAF_STONE, WHIMSICOTT
+	db EVOLVE_ITEM, SUN_STONE, WHIMSICOTT
 	db 0 ; no more evolutions
 	db 1, ABSORB
 	db 1, FAIRY_WIND
@@ -2069,7 +2069,7 @@ WhimsicottEvosAttacks:
 	db 0 ; no more level-up moves
 
 PetililEvosAttacks:
-	db EVOLVE_ITEM, LEAF_STONE, LILLIGANT
+	db EVOLVE_ITEM, SUN_STONE, LILLIGANT
 	db 0 ; no more evolutions
 	db 1, ABSORB
 	db 4, GROWTH
