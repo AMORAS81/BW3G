@@ -151,7 +151,7 @@ ItemDescriptions:
 	dw RazorFangDesc
 	dw MysteryBerryDesc
 	dw DragonScaleDesc
-	dw BerserkGeneDesc
+	dw DuskStoneDesc
 	dw PPMaxDesc
 	dw LifeOrbDesc
 	dw NetBallDesc
@@ -856,9 +856,9 @@ DragonScaleDesc:
 	db   "A rare dragon-type"
 	next "item.@"
 
-BerserkGeneDesc:
-	db   "Boosts ATTACK but"
-	next "causes confusion.@"
+DuskStoneDesc:
+	db   "Evolves certain"
+	next "kinds of #MON.@"
 
 PPMaxDesc:
 	db   "Maximizes PP of"
