@@ -170,7 +170,7 @@ ItemEffects:
 	dw PokeBallEffect      ; NET_BALL
 	dw SacredAshEffect     ; SACRED_ASH
 	dw PokeBallEffect      ; HEAVY_BALL
-	dw NoEffect            ; FLOWER_MAIL
+	dw EvoStoneEffect      ; SHINY_STONE
 	dw PokeBallEffect      ; LEVEL_BALL
 	dw PokeBallEffect      ; LURE_BALL
 	dw PokeBallEffect      ; FAST_BALL
