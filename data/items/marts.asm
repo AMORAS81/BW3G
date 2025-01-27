@@ -148,13 +148,17 @@ MartMall4:
 	db -1 ; end
 
 MartMall5:
-	db 6 ; # items
-	db LEAF_STONE
+	db 10 ; # items
+	db DAWN_STONE
+	db DUSK_STONE
 	db FIRE_STONE
-	db WATER_STONE
-	db THUNDERSTONE
-	db SUN_STONE
+	db LEAF_STONE
 	db LINKING_CORD
+	db MOON_STONE
+	db SHINY_STONE
+	db SUN_STONE
+	db THUNDERSTONE
+	db WATER_STONE
 	db -1 ; end
 
 MartMembers1:
