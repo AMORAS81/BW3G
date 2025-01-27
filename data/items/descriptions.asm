@@ -157,7 +157,7 @@ ItemDescriptions:
 	dw NetBallDesc
 	dw SacredAshDesc
 	dw HeavyBallDesc
-	dw FlowerMailDesc
+	dw ShinyStoneDesc
 	dw LevelBallDesc
 	dw LureBallDesc
 	dw FastBallDesc
