@@ -6444,7 +6444,7 @@ LoadEnemyMon:
 	jr nz, .GenerateDVs
 
 	ld b, ATKDEFDV_SHINY ; $fd
-	ld c, SPDSPCDV_SHINY ; $fd
+	ld c, SPDSPCDV_SHINY ; $ff
 	jr .UpdateDVs
 
 .GenerateDVs:
