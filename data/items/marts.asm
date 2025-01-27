@@ -148,11 +148,12 @@ MartMall4:
 	db -1 ; end
 
 MartMall5:
-	db 5 ; # items
+	db 6 ; # items
 	db LEAF_STONE
 	db FIRE_STONE
 	db WATER_STONE
 	db THUNDERSTONE
+	db SUN_STONE
 	db LINKING_CORD
 	db -1 ; end
 
