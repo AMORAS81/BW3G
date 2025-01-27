@@ -163,7 +163,7 @@
 	const NET_BALL     ; 9b
 	const SACRED_ASH   ; 9c
 	const HEAVY_BALL   ; 9d
-	const FLOWER_MAIL  ; 9e
+	const SHINY_STONE  ; 9e
 	const LEVEL_BALL   ; 9f
 	const LURE_BALL    ; a0
 	const FAST_BALL    ; a1
