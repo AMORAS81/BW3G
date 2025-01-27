@@ -157,7 +157,7 @@
 	const RAZOR_FANG   ; 95
 	const MYSTERYBERRY ; 96
 	const DRAGON_SCALE ; 97
-	const BERSERK_GENE ; 98
+	const DUSK STONE   ; 98
 	const PP_MAX       ; 99
 	const LIFE_ORB     ; 9a
 	const NET_BALL     ; 9b
