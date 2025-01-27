@@ -1,6 +1,6 @@
 	const_def 2 ; object constants
 	const CELESTIALTOWER_HYPER_POTION
-	const CELESTIALTOWER_REVIVE
+	const CELESTIALTOWER_DUSK_STONE
 	const CELESTIALTOWER_PP_UP
 	const CELESTIALTOWER_SMOKE_BALL
 	const CELESTIALTOWER_HEX_MANIAC_1
@@ -132,8 +132,8 @@ TrainerGentlemanCelestialTower:
 CelestialTowerHyperPotion:
 	itemball HYPER_POTION
 	
-CelestialTowerRevive:
-	itemball REVIVE
+CelestialTowerDuskStone:
+	itemball DUSK_STONE
 	
 CelestialTowerPPUp:
 	itemball PP_UP
@@ -401,7 +401,7 @@ CelestialTower_MapEvents:
 
 	db 14 ; object events
 	object_event  9, 26, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, CelestialTowerHyperPotion, EVENT_CELESTIAL_HYPER_POTION
-	object_event  9,  7, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, CelestialTowerRevive, EVENT_CELESTIAL_REVIVE
+	object_event  9,  7, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, CelestialTowerDuskStone, EVENT_CELESTIAL_DUSK_STONE
 	object_event  1, 36, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, CelestialTowerPPUp, EVENT_CELESTIAL_PP_UP
 	object_event  9, 43, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, CelestialTowerSmokeBall, EVENT_CELESTIAL_SMOKE_BALL
 	object_event  4, 43, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 2, TrainerHexManiac1CelestialTower, -1
