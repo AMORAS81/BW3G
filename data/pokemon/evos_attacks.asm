@@ -1636,7 +1636,7 @@ SteelixEvosAttacks:
 	db 0 ; no more level-up moves
 
 NosepassEvosAttacks:
-	db EVOLVE_HOLD, METAL_COAT, TR_ANYTIME, PROBOPASS
+	db EVOLVE_ITEM, THUNDERSTONE, PROBOPASS
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 4, HARDEN
