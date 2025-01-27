@@ -156,7 +156,7 @@ ItemNames::
 	db "NET BALL@"
 	db "SACRED ASH@"
 	db "HEAVY BALL@"
-	db "FLOWER MAIL@"
+	db "SHINY STONE@"
 	db "LEVEL BALL@"
 	db "LURE BALL@"
 	db "FAST BALL@"
