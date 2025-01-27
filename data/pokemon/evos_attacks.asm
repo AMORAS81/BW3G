@@ -1067,7 +1067,7 @@ BudewEvosAttacks:
 	db 0 ; no more level-up moves
 
 RoseliaEvosAttacks:
-	db EVOLVE_ITEM, LEAF_STONE, ROSERADE
+	db EVOLVE_ITEM, SHINY_STONE, ROSERADE
 	db 0 ; no more evolutions
 	db 1, ABSORB
 	db 4, GROWTH
