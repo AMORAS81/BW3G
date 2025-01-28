@@ -177,7 +177,7 @@ ItemDescriptions:
 	dw SquirtBottleDesc
 	dw DataDiskDesc
 	dw ParkBallDesc
-	dw FairyFeatherDesc
+	dw PinkBowDesc
 	dw RedShardDesc
 	dw BlueShardDesc
 	dw GreenShardDesc
@@ -960,7 +960,7 @@ ParkBallDesc:
 	db   "The Bug-Catching"
 	next "Contest BALL.@"
 
-FairyFeatherDesc:
+PinkBowDesc:
 	db   "Powers up fairy-"
 	next "type moves. (HOLD)@"
 
