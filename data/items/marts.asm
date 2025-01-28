@@ -89,8 +89,8 @@ MartMerchant2:
 MartBoutique:
 	db 6 ; # items
 	db BLACKGLASSES
+	db PINK_BOW
 	db BLACKBELT
-	db FAIRY_FEATHER
 	db MUSCLE_BAND
 	db WISE_GLASSES
 	db FOCUS_BAND
