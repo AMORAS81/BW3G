@@ -87,9 +87,10 @@ MartMerchant2:
 	db -1 ; end
 
 MartBoutique:
-	db 5 ; # items
+	db 6 ; # items
 	db BLACKGLASSES
 	db BLACKBELT
+	db FAIRY_FEATHER
 	db MUSCLE_BAND
 	db WISE_GLASSES
 	db FOCUS_BAND
