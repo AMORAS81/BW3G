@@ -176,7 +176,7 @@ ItemNames::
 	db "SQUIRTBOTTLE@"
 	db "DATA DISK@"
 	db "PARK BALL@"
-	db "RAINBOW WING@"
+	db "FAIRY FEATHER@"
 	db "RED SHARD@"
 	db "BLUE SHARD@"
 	db "GREEN SHARD@"
