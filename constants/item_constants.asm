@@ -183,7 +183,7 @@
 	const SQUIRTBOTTLE ; af
 	const DATA_DISK    ; b0
 	const PARK_BALL    ; b1
-	const FAIRY_FEATHER ; b2
+	const PINK_BOW     ; b2
 	const RED_SHARD    ; b3
 	const BLUE_SHARD   ; b4
 	const GREEN_SHARD  ; b5
