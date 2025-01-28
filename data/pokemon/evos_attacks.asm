@@ -4093,6 +4093,7 @@ BisharpEvosAttacks:
 	db 1, SCRATCH
 	db 1, LEER
 	db 1, FURY_CUTTER
+	db 1, SUCKER_PUNCH
 	db 1, SWAGGER ; Torment
 	db 6, LEER
 	db 9, FURY_CUTTER
