@@ -233,7 +233,6 @@ BattleTurn:
 	ld [wCurDamage], a
 	ld [wCurDamage + 1], a
 
-	call HandleBerserkGene
 	call UpdateBattleMonInParty
 	farcall AIChooseMove
 
@@ -407,14 +406,6 @@ CheckFaint_EnemyThenPlayer:
 	scf
 	ret
 
-HandleBerserkGene:
-	ldh a, [hSerialConnectionStatus]
-	cp USING_EXTERNAL_CLOCK
-	jr z, .reverse
-
-	call .player
-	jr .enemy
-
 .reverse
 	call .enemy
 	; fallthrough
@@ -439,7 +430,6 @@ HandleBerserkGene:
 	callfar GetUserItem
 	ld a, [hl]
 	ld [wNamedObjectIndexBuffer], a
-	sub BERSERK_GENE
 	pop bc
 	pop de
 	ret nz
