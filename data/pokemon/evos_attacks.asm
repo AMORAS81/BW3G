@@ -726,7 +726,7 @@ ZubatEvosAttacks:
 	db 23, SWIFT
 	db 25, POISON_FANG
 	db 29, MEAN_LOOK
-	db 31, LEECH LIFE
+	db 31, LEECH_LIFE
 	db 35, HAZE
 	db 37, VENOSHOCK
 	db 41, AIR_SLASH
@@ -747,7 +747,7 @@ GolbatEvosAttacks:
 	db 24, SWIFT
 	db 27, POISON_FANG
 	db 32, MEAN_LOOK
-	db 35, LEECH LIFE
+	db 35, LEECH_LIFE
 	db 40, HAZE
 	db 43, VENOSHOCK
 	db 48, AIR_SLASH
@@ -772,7 +772,7 @@ CrobatEvosAttacks:
 	db 24, SWIFT
 	db 27, POISON_FANG
 	db 32, MEAN_LOOK
-	db 35, LEECH LIFE
+	db 35, LEECH_LIFE
 	db 40, HAZE
 	db 43, VENOSHOCK
 	db 48, AIR_SLASH
