@@ -13,7 +13,7 @@ FloccesyHouseTwinScript:
 	iftrue .gotbow
 	writetext FloccesyHouseTwinIntroText
 	buttonsound
-	verbosegiveitem FAIRY_FEATHER
+	verbosegiveitem PINK_BOW
 	iffalse .noroom
 	setevent EVENT_GOT_PINK_BOW
 .gotbow
@@ -39,7 +39,7 @@ FloccesyHouseTwinIntroText:
 	done
 
 FloccesyHouseGotBowText:
-	text "This Feather"
+	text "This pretty bow"
 	line "makes fairy moves"
 	cont "stronger!"
 	
