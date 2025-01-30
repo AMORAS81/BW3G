@@ -148,9 +148,9 @@ EvosAttacksPointers::
 	dw KrookodileEvosAttacks
 	dw SkorupiEvosAttacks
 	dw DrapionEvosAttacks
-	dw TrapinchEvosAttacks
-	dw VibravaEvosAttacks
-	dw FlygonEvosAttacks
+	dw GibleEvosAttacks
+	dw GabiteEvosAttacks
+	dw GarchompEvosAttacks
 	dw ScraggyEvosAttacks
 	dw ScraftyEvosAttacks
 	dw NumelEvosAttacks
