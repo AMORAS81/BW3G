@@ -3044,72 +3044,61 @@ DrapionEvosAttacks:
 	db 57, CROSS_POISON
 	db 0 ; no more level-up moves
 
-TrapinchEvosAttacks:
-	db EVOLVE_LEVEL, 35, VIBRAVA
+GibleEvosAttacks:
+	db EVOLVE_LEVEL, 24, GABITE
 	db 0 ; no more evolutions
-	db 1, BITE
-	db 1, SAND_ATTACK
-	db 1, FAINT_ATTACK
-	db 5, MUD_SLAP
-	db 8, BULLDOZE
-	db 12, MAGNITUDE ; Sand Tomb
-	db 15, ROCK_SLIDE
-	db 19, DIG
-	db 22, CRUNCH
-	db 26, EARTH_POWER
-	db 29, X_SCISSOR ; Feint
-	db 33, EARTHQUAKE
-	db 36, SANDSTORM
-	db 40, CLOSE_COMBAT ; Superpower
-	db 43, HYPER_BEAM
+	db 1, TACKLE
+	db 3, SAND_ATTACK
+	db 7, DRAGON_RAGE
+	db 13, SANDSTORM
+	db 15, TAKE_DOWN
+	db 19, MUD_SHOT ; Sand Tomb
+	db 25, SLASH
+	db 27, DRAGON_CLAW
+	db 31, DIG
+	db 37, OUTRAGE
 	db 0 ; no more level-up moves
 
-VibravaEvosAttacks:
-	db EVOLVE_LEVEL, 45, FLYGON
+GabiteEvosAttacks:
+	db EVOLVE_LEVEL, 48, GARCHOMP
 	db 0 ; no more evolutions
-	db 1, BITE
+	db 1, DRAGON_BREATH
+	db 1, DRAGON_RAGE
+	db 1, IRON_HEAD
 	db 1, SAND_ATTACK
-	db 1, FAINT_ATTACK
-	db 5, MUD_SLAP
-	db 8, BULLDOZE
-	db 12, MAGNITUDE ; Sand Tomb
-	db 15, ROCK_SLIDE
-	db 19, SUPERSONIC
-	db 22, SCREECH
-	db 26, EARTH_POWER
-	db 29, BUG_BUZZ
-	db 33, EARTHQUAKE
-	db 34, DRAGONBREATH
-	db 36, SANDSTORM
-	db 40, HYPER_VOICE ; Uproar
-	db 43, HYPER_BEAM
+	db 1, TACKLE
+	db 3, SAND_ATTACK
+	db 7, DRAGON_RAGE
+	db 13, SANDSTORM
+	db 15, TAKE_DOWN
+	db 19, MUD_SHOT ; Sand Tomb
+	db 28, SLASH
+	db 33, DRAGON_CLAW
+	db 40, DIG
+	db 49, OUTRAGE
 	db 0 ; no more level-up moves
 
-FlygonEvosAttacks:
+GarchompEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, DRAGON_CLAW
-	db 1, DRAGONBREATH
-	db 1, DRAGON_DANCE
-	db 1, SONICBOOM
-	db 1, BITE
+	db 1, CRUNCH
+	db 1, DRAGON_BREATH
+	db 1, DRAGON_RAGE
+	db 1, FIRE_FANG
+	db 1, IRON_HEAD
 	db 1, SAND_ATTACK
-	db 1, FAINT_ATTACK
-	db 5, MUD_SLAP
-	db 8, BULLDOZE
-	db 12, MAGNITUDE ; Sand Tomb
-	db 15, ROCK_SLIDE
-	db 19, SUPERSONIC
-	db 22, SCREECH
-	db 26, EARTH_POWER
-	db 29, BUG_BUZZ
-	db 33, EARTHQUAKE
-	db 34, DRAGONBREATH
-	db 36, SANDSTORM
-	db 40, HYPER_VOICE ; Uproar
-	db 43, HYPER_BEAM
-	db 44, DRAGON_CLAW
-	db 47, OUTRAGE ; Dragon Rush
+	db 1, SANDSTORM
+	db 1, TACKLE
+	db 3, SAND_ATTACK
+	db 7, DRAGON_RAGE
+	db 13, SANDSTORM
+	db 15, TAKE_DOWN
+	db 19, MUD_SHOT ; Sand Tomb
+	db 28, SLASH
+	db 33, DRAGON_CLAW
+	db 40, DIG
+	db 55, OUTRAGE
 	db 0 ; no more level-up moves
+
 
 ScraggyEvosAttacks:
 	db EVOLVE_LEVEL, 39, SCRAFTY
