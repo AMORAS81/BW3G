@@ -165,9 +165,9 @@
 	const KROOKODILE ; 90
 	const SKORUPI    ; 91
 	const DRAPION    ; 92
-	const TRAPINCH   ; 93
-	const VIBRAVA    ; 94
-	const FLYGON     ; 95
+	const GIBLE      ; 93
+	const GABITE     ; 94
+	const GARCHOMP   ; 95
 	const SCRAGGY    ; 96
 	const SCRAFTY    ; 97
 	const NUMEL      ; 98
