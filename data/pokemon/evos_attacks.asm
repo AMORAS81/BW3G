@@ -3062,7 +3062,6 @@ GibleEvosAttacks:
 GabiteEvosAttacks:
 	db EVOLVE_LEVEL, 48, GARCHOMP
 	db 0 ; no more evolutions
-	db 1, DRAGON_BREATH
 	db 1, DRAGON_RAGE
 	db 1, IRON_HEAD
 	db 1, SAND_ATTACK
@@ -3072,6 +3071,7 @@ GabiteEvosAttacks:
 	db 13, SANDSTORM
 	db 15, TAKE_DOWN
 	db 19, MUD_SHOT ; Sand Tomb
+	db 24, DRAGON_BREATH
 	db 28, SLASH
 	db 33, DRAGON_CLAW
 	db 40, DIG
@@ -3081,7 +3081,6 @@ GabiteEvosAttacks:
 GarchompEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, CRUNCH
-	db 1, DRAGON_BREATH
 	db 1, DRAGON_RAGE
 	db 1, FIRE_FANG
 	db 1, IRON_HEAD
@@ -3093,6 +3092,7 @@ GarchompEvosAttacks:
 	db 13, SANDSTORM
 	db 15, TAKE_DOWN
 	db 19, MUD_SHOT ; Sand Tomb
+	db 24, DRAGON_BREATH
 	db 28, SLASH
 	db 33, DRAGON_CLAW
 	db 40, DIG
