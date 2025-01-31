@@ -294,12 +294,12 @@ PokemonPicPointers::
 	dba SkorupiBackpic
 	dba DrapionFrontpic
 	dba DrapionBackpic
-	dba TrapinchFrontpic
-	dba TrapinchBackpic
-	dba VibravaFrontpic
-	dba VibravaBackpic
-	dba FlygonFrontpic
-	dba FlygonBackpic
+	dba GibleFrontpic
+	dba GibleBackpic
+	dba GabiteFrontpic
+	dba GabiteBackpic
+	dba GarchompFrontpic
+	dba GarchompBackpic
 	dba ScraggyFrontpic
 	dba ScraggyBackpic
 	dba ScraftyFrontpic
