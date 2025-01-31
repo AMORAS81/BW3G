@@ -151,9 +151,9 @@ MonMenuIconPals:
 	icon_pals RED,		BROWN ; FERALIGATR
 	icon_pals PURPLE,	RED ; SKORUPI
 	icon_pals PURPLE,	RED ; DRAPION
-	icon_pals RED,		BLUE ; TRAPINCH
-	icon_pals GREEN,	RED ; VIBRAVA
-	icon_pals GREEN,	TEAL ; FLYGON
+	icon_pals BLUE,		RED ; GIBLE
+	icon_pals BLUE, 	RED ; GABITE
+	icon_pals BLUE, 	RED ; GARCHOMP
 	icon_pals RED,		BROWN ; SCRAGGY
 	icon_pals RED,		BROWN ; PRIMEAPE
 	icon_pals GREEN,	BLUE ; NUMEL
