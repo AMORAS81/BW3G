@@ -523,34 +523,34 @@ JohtoGrassWildMons:
 	; morn
 	db 14, SANDILE
 	db 15, DARUMAKA
-	db 14, TRAPINCH
+	db 14, GIBLE
 	db 14, NUMEL
 	db 14, MARACTUS
 	db 15, GLIGAR
 	db 16, MARACTUS
-	db 15, TRAPINCH
+	db 15, GIBLE
 	db 14, SIGILYPH
 	db 16, SIGILYPH
 	; day
 	db 14, SANDILE
 	db 15, DARUMAKA
-	db 14, TRAPINCH
+	db 14, GIBLE
 	db 14, NUMEL
 	db 14, MARACTUS
 	db 15, GLIGAR
 	db 16, MARACTUS
-	db 15, TRAPINCH
+	db 15, GIBLE
 	db 14, SIGILYPH
 	db 16, SIGILYPH
 	; nite
 	db 14, SANDILE
 	db 15, DARUMAKA
-	db 14, TRAPINCH
+	db 14, GIBLE
 	db 14, NUMEL
 	db 14, MARACTUS
 	db 15, GLIGAR
 	db 16, MARACTUS
-	db 15, TRAPINCH
+	db 15, GIBLE
 	db 14, SIGILYPH
 	db 16, SIGILYPH
 
@@ -559,7 +559,7 @@ JohtoGrassWildMons:
 	; morn
 	db 15, BALTOY
 	db 16, YAMASK
-	db 15, TRAPINCH
+	db 15, GIBLE
 	db 14, DWEBBLE
 	db 16, GASTLY
 	db 15, GLIGAR
@@ -570,7 +570,7 @@ JohtoGrassWildMons:
 	; day
 	db 15, BALTOY
 	db 16, YAMASK
-	db 15, TRAPINCH
+	db 15, GIBLE
 	db 14, DWEBBLE
 	db 16, GASTLY
 	db 15, GLIGAR
@@ -581,7 +581,7 @@ JohtoGrassWildMons:
 	; nite
 	db 15, BALTOY
 	db 16, YAMASK
-	db 15, TRAPINCH
+	db 15, GIBLE
 	db 14, DWEBBLE
 	db 16, GASTLY
 	db 15, GLIGAR
@@ -595,7 +595,7 @@ JohtoGrassWildMons:
 	; morn
 	db 15, BALTOY
 	db 16, YAMASK
-	db 15, TRAPINCH
+	db 15, GIBLE
 	db 14, DWEBBLE
 	db 16, GASTLY
 	db 15, GLIGAR
@@ -606,7 +606,7 @@ JohtoGrassWildMons:
 	; day
 	db 15, BALTOY
 	db 16, YAMASK
-	db 15, TRAPINCH
+	db 15, GIBLE
 	db 14, DWEBBLE
 	db 16, GASTLY
 	db 15, GLIGAR
@@ -617,7 +617,7 @@ JohtoGrassWildMons:
 	; nite
 	db 15, BALTOY
 	db 16, YAMASK
-	db 15, TRAPINCH
+	db 15, GIBLE
 	db 14, DWEBBLE
 	db 16, GASTLY
 	db 15, GLIGAR
@@ -631,7 +631,7 @@ JohtoGrassWildMons:
 	; morn
 	db 15, BALTOY
 	db 16, YAMASK
-	db 15, TRAPINCH
+	db 15, GIBLE
 	db 16, GLIGAR
 	db 16, GASTLY
 	db 15, DWEBBLE
@@ -642,7 +642,7 @@ JohtoGrassWildMons:
 	; day
 	db 15, BALTOY
 	db 16, YAMASK
-	db 15, TRAPINCH
+	db 15, GIBLE
 	db 16, GLIGAR
 	db 16, GASTLY
 	db 15, DWEBBLE
@@ -653,7 +653,7 @@ JohtoGrassWildMons:
 	; nite
 	db 15, BALTOY
 	db 16, YAMASK
-	db 15, TRAPINCH
+	db 15, GIBLE
 	db 16, GLIGAR
 	db 16, GASTLY
 	db 15, DWEBBLE
@@ -667,7 +667,7 @@ JohtoGrassWildMons:
 	; morn
 	db 15, BALTOY
 	db 16, YAMASK
-	db 15, TRAPINCH
+	db 15, GIBLE
 	db 16, GLIGAR
 	db 16, GASTLY
 	db 15, DWEBBLE
@@ -678,7 +678,7 @@ JohtoGrassWildMons:
 	; day
 	db 15, BALTOY
 	db 16, YAMASK
-	db 15, TRAPINCH
+	db 15, GIBLE
 	db 16, GLIGAR
 	db 16, GASTLY
 	db 15, DWEBBLE
@@ -689,7 +689,7 @@ JohtoGrassWildMons:
 	; nite
 	db 15, BALTOY
 	db 16, YAMASK
-	db 15, TRAPINCH
+	db 15, GIBLE
 	db 16, GLIGAR
 	db 16, GASTLY
 	db 15, DWEBBLE
@@ -1536,7 +1536,7 @@ JohtoGrassWildMons:
 	db 34, BALTOY
 	db 33, BALTOY
 	db 34, SIGILYPH
-	db 33, TRAPINCH
+	db 33, GIBLE
 	db 32, SIGILYPH
 	db 36, SIGILYPH
 	; day
@@ -1547,7 +1547,7 @@ JohtoGrassWildMons:
 	db 34, BALTOY
 	db 33, BALTOY
 	db 34, SIGILYPH
-	db 33, TRAPINCH
+	db 33, GIBLE
 	db 32, SIGILYPH
 	db 36, SIGILYPH
 	; nite
@@ -1558,7 +1558,7 @@ JohtoGrassWildMons:
 	db 34, BALTOY
 	db 33, BALTOY
 	db 34, SIGILYPH
-	db 33, TRAPINCH
+	db 33, GIBLE
 	db 32, SIGILYPH
 	db 36, SIGILYPH
 	
@@ -2434,7 +2434,7 @@ JohtoGrassWildMons:
 	db 19, MAGBY
 	db 17, FERROSEED
 	db 16, HOUNDOUR
-	db 17, TRAPINCH
+	db 17, GIBLE
 	db 18, THROH
 	db 18, SAWK
 	db 20, FERROSEED
@@ -2445,7 +2445,7 @@ JohtoGrassWildMons:
 	db 19, MAGBY
 	db 17, FERROSEED
 	db 16, HOUNDOUR
-	db 17, TRAPINCH
+	db 17, GIBLE
 	db 18, THROH
 	db 18, SAWK
 	db 20, FERROSEED
@@ -2456,7 +2456,7 @@ JohtoGrassWildMons:
 	db 19, MAGBY
 	db 17, FERROSEED
 	db 16, HOUNDOUR
-	db 17, TRAPINCH
+	db 17, GIBLE
 	db 18, THROH
 	db 18, SAWK
 	db 20, FERROSEED
@@ -2646,7 +2646,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 52, KROKOROK
-	db 51, VIBRAVA
+	db 51, GABITE
 	db 52, EXCADRILL
 	db 50, MEDICHAM
 	db 51, FERROTHORN
@@ -2657,7 +2657,7 @@ JohtoGrassWildMons:
 	db 55, FRAXURE
 	; day
 	db 52, KROKOROK
-	db 51, VIBRAVA
+	db 51, GABITE
 	db 52, EXCADRILL
 	db 50, MEDICHAM
 	db 51, FERROTHORN
@@ -2668,7 +2668,7 @@ JohtoGrassWildMons:
 	db 55, FRAXURE
 	; nite
 	db 52, KROKOROK
-	db 51, VIBRAVA
+	db 51, GABITE
 	db 52, EXCADRILL
 	db 50, MEDICHAM
 	db 51, FERROTHORN
@@ -2682,7 +2682,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 52, KROKOROK
-	db 51, VIBRAVA
+	db 51, GABITE
 	db 52, EXCADRILL
 	db 50, MEDICHAM
 	db 51, FERROTHORN
@@ -2693,7 +2693,7 @@ JohtoGrassWildMons:
 	db 55, FRAXURE
 	; day
 	db 52, KROKOROK
-	db 51, VIBRAVA
+	db 51, GABITE
 	db 52, EXCADRILL
 	db 50, MEDICHAM
 	db 51, FERROTHORN
@@ -2704,7 +2704,7 @@ JohtoGrassWildMons:
 	db 55, FRAXURE
 	; nite
 	db 52, KROKOROK
-	db 51, VIBRAVA
+	db 51, GABITE
 	db 52, EXCADRILL
 	db 50, MEDICHAM
 	db 51, FERROTHORN
