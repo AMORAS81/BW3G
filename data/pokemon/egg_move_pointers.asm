@@ -145,7 +145,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw SkorupiEggMoves
 	dw NoEggMoves
-	dw TrapinchEggMoves
+	dw GibleEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw ScraggyEggMoves
