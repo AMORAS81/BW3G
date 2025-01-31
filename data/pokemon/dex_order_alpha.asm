@@ -74,18 +74,20 @@ AlphabeticalPokedexOrder:
 	db FERROTHORN
 	db FLAAFFY
 	db FLAREON
-	db FLYGON
 	db FOONGUS
 	db FRAXURE
 	db FRILLISH
 	db FROSLASS
+	db GABITE
 	db GALLADE
 	db GALVANTULA
 	db GARBODOR
+	db GARCHOMP
 	db GARDEVOIR
 	db GASTLY
 	db GENESECT
 	db GENGAR
+	db GIBLE
 	db GIGALITH
 	db GLACEON
 	db GLALIE
@@ -220,7 +222,6 @@ AlphabeticalPokedexOrder:
 	db TIRTOUGA
 	db TOXICROAK
 	db TRANQUILL
-	db TRAPINCH
 	db TROPIUS
 	db TRUBBISH
 	db TYMPOLE
@@ -233,7 +234,6 @@ AlphabeticalPokedexOrder:
 	db VANILLUXE
 	db VAPOREON
 	db VENIPEDE
-	db VIBRAVA
 	db VOLCARONA
 	db VULLABY
 	db VULPIX
