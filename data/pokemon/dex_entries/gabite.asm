@@ -1,5 +1,5 @@
 	db "CAVE@" ; species name
-	dw 14, 560 ; height, weight
+	dw 407, 1235 ; height, weight
 
 	db "It habitually digs"
 	next "up and hoards gems"
