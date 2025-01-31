@@ -3,8 +3,8 @@
 
 	db "It once lived in"
 	next "the tropics. To"
-	next "avoid the cold,"
+	next "avoid the cold, it"
 
-	page "it lives in "
-	next "caves warmed by"
+	page "lives in caves"
+	next "warmed by"
 	next "geothermal heat."
