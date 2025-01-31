@@ -130,9 +130,9 @@ OldPokedexOrder:
 	db CRUSTLE    ; 81
 	db NUMEL      ; 82
 	db CAMERUPT   ; 83
-	db TRAPINCH   ; 84
-	db VIBRAVA    ; 85
-	db FLYGON     ; 86
+	db GIBLE      ; 84
+	db GABITE     ; 85
+	db GARCHOMP   ; 86
 	db MARACTUS   ; 87
 	db GLIGAR     ; 88
 	db GLISCOR    ; 89
