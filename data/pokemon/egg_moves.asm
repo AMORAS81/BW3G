@@ -501,7 +501,7 @@ SkorupiEggMoves:
 GibleEggMoves:
 	db BODY_SLAM
 	db DOUBLE_EDGE
-	db DRAGON_BREATH
+	db DRAGONBREATH
 	db IRON_HEAD
 	db IRON_TAIL
 	db METAL_CLAW
