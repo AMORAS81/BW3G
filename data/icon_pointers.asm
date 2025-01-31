@@ -147,9 +147,9 @@ IconPointers:
 	dw KrookodileIcon
 	dw SkorupiIcon
 	dw DrapionIcon
-	dw TrapinchIcon
-	dw VibravaIcon
-	dw FlygonIcon
+	dw GibleIcon
+	dw GabiteIcon
+	dw GarchompIcon
 	dw ScraggyIcon
 	dw ScraftyIcon
 	dw NumelIcon
