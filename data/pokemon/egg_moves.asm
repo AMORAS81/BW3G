@@ -498,17 +498,16 @@ SkorupiEggMoves:
 	db WHIRLWIND
 	db -1 ; end
 
-TrapinchEggMoves:
-	db BUG_BITE
-	db EARTH_POWER
-	db ENDURE
-	db FLAIL
-	db FOCUS_ENERGY
-	db FURY_CUTTER
-	db GUST
+GibleEggMoves:
+	db BODY_SLAM
+	db DOUBLE_EDGE
+	db DRAGON_BREATH
+	db IRON_HEAD
+	db IRON_TAIL
+	db METAL_CLAW
 	db MUD_SHOT
-	db QUICK_ATTACK
-	db SIGNAL_BEAM
+	db OUTRAGE
+	db SCARY_FACE
 	db -1 ; end
 
 ScraggyEggMoves:
