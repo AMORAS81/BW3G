@@ -304,12 +304,12 @@ INCBIN "gfx/pokemon/skorupi/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/skorupi/shiny.pal"
 INCBIN "gfx/pokemon/drapion/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/drapion/shiny.pal"
-INCBIN "gfx/pokemon/trapinch/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/trapinch/shiny.pal"
-INCBIN "gfx/pokemon/vibrava/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/vibrava/shiny.pal"
-INCBIN "gfx/pokemon/flygon/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/flygon/shiny.pal"
+INCBIN "gfx/pokemon/gible/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/gible/shiny.pal"
+INCBIN "gfx/pokemon/gabite/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/gabite/shiny.pal"
+INCBIN "gfx/pokemon/garchomp/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/garchomp/shiny.pal"
 INCBIN "gfx/pokemon/scraggy/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/scraggy/shiny.pal"
 INCBIN "gfx/pokemon/scrafty/front.gbcpal", middle_colors
