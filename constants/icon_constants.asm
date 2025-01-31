@@ -147,9 +147,9 @@
 	const ICON_KROOKODILE ; 90
 	const ICON_SKORUPI    ; 91
 	const ICON_DRAPION    ; 92
-	const ICON_TRAPINCH   ; 93
-	const ICON_VIBRAVA    ; 94
-	const ICON_FLYGON     ; 95
+	const ICON_GIBLE      ; 93
+	const ICON_GABITE     ; 94
+	const ICON_GARCHOMP   ; 95
 	const ICON_SCRAGGY    ; 96
 	const ICON_SCRAFTY    ; 97
 	const ICON_NUMEL      ; 98
