@@ -146,9 +146,9 @@ PokedexDataPointerTable:
 	dw KrookodilePokedexEntry
 	dw SkorupiPokedexEntry
 	dw DrapionPokedexEntry
-	dw TrapinchPokedexEntry
-	dw VibravaPokedexEntry
-	dw FlygonPokedexEntry
+	dw GiblePokedexEntry
+	dw GabitePokedexEntry
+	dw GarchompPokedexEntry
 	dw ScraggyPokedexEntry
 	dw ScraftyPokedexEntry
 	dw NumelPokedexEntry
