@@ -1,10 +1,9 @@
-	db "MYSTIC@" ; species name
-	dw 607, 1808 ; height, weight
+	db "MACH@" ; species name
+	dw 603, 2094 ; height, weight
 
-	db "It whips up a"
-	next "sandstorm by"
-	next "flapping its"
+	db "It flies at speeds"
+	next "equal to a jet"
+	next "fighter plane. It"
 
-	page "wings. This makes"
-	next "a sound similar"
-	next "to singing.@"
+	page "never allows its"
+	next "prey to escape."
