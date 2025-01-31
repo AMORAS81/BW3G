@@ -1,5 +1,5 @@
 	db "LAND SHARK@" ; species name
-	dw 7, 205 ; height, weight
+	dw 204, 452 ; height, weight
 
 	db "It once lived in"
 	next "the tropics. To"
