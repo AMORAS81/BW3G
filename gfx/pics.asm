@@ -275,15 +275,15 @@ BlackbeltTPic:       INCBIN "gfx/trainers/blackbelt_t.2bpp.lz"
 BikerPic:            INCBIN "gfx/trainers/biker.2bpp.lz"
 ScraggyFrontpic:   INCBIN "gfx/pokemon/scraggy/front.animated.2bpp.lz"
 ScraftyFrontpic:   INCBIN "gfx/pokemon/scrafty/front.animated.2bpp.lz"
-VibravaFrontpic:   INCBIN "gfx/pokemon/vibrava/front.animated.2bpp.lz"
-FlygonFrontpic:   INCBIN "gfx/pokemon/flygon/front.animated.2bpp.lz"
+GabiteFrontpic:   INCBIN "gfx/pokemon/Gabite/front.animated.2bpp.lz"
+GarchompFrontpic:   INCBIN "gfx/pokemon/Garchomp/front.animated.2bpp.lz"
 HikerPic:            INCBIN "gfx/trainers/hiker.2bpp.lz"
 SandileFrontpic:   INCBIN "gfx/pokemon/sandile/front.animated.2bpp.lz"
 KrokorokFrontpic:   INCBIN "gfx/pokemon/krokorok/front.animated.2bpp.lz"
 KrookodileFrontpic:   INCBIN "gfx/pokemon/krookodile/front.animated.2bpp.lz"
 SkorupiFrontpic:   INCBIN "gfx/pokemon/skorupi/front.animated.2bpp.lz"
 DrapionFrontpic:   INCBIN "gfx/pokemon/drapion/front.animated.2bpp.lz"
-TrapinchFrontpic:   INCBIN "gfx/pokemon/trapinch/front.animated.2bpp.lz"
+GibleFrontpic:   INCBIN "gfx/pokemon/Gible/front.animated.2bpp.lz"
 
 
 SECTION "Pics 10", ROMX
