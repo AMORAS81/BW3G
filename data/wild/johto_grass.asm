@@ -17,16 +17,16 @@ JohtoGrassWildMons:
 	map_id R_22
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, PATRAT
-	db 2, PIDOVE
-	db 2, PURRLOIN
-	db 2, AZURILL
-	db 2, IGGLYBUFF
-	db 3, PIDOVE
-	db 3, PURRLOIN
-	db 3, PATRAT
-	db 3, IGGLYBUFF
-	db 3, AZURILL
+	db 2, GARCHOMP
+	db 2, GABITE
+	db 2, GIBLE
+	db 2, GIBLE
+	db 2, GARCHOMP
+	db 3, GABITE
+	db 3, GARCHOMP
+	db 3, GABITE
+	db 3, GIBLE
+	db 3, GIBLE
 	; day
 	db 2, PATRAT
 	db 2, PIDOVE
