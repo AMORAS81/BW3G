@@ -3071,7 +3071,7 @@ GabiteEvosAttacks:
 	db 13, SANDSTORM
 	db 15, TAKE_DOWN
 	db 19, MUD_SHOT ; Sand Tomb
-	db 24, DRAGON_BREATH
+	db 24, DRAGONBREATH
 	db 28, SLASH
 	db 33, DRAGON_CLAW
 	db 40, DIG
@@ -3092,7 +3092,7 @@ GarchompEvosAttacks:
 	db 13, SANDSTORM
 	db 15, TAKE_DOWN
 	db 19, MUD_SHOT ; Sand Tomb
-	db 24, DRAGON_BREATH
+	db 24, DRAGONBREATH
 	db 28, SLASH
 	db 33, DRAGON_CLAW
 	db 40, DIG
