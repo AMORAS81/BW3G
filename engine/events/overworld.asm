@@ -171,7 +171,7 @@ OW_CheckLvlUpMoves:
 	add hl, bc
 	ld a, BANK(EvosAttacksPointers)
 	ld b, a
-	call GetFarHalfWord
+	call GetFarHalfword
 	ld a, b
 	call GetFarByte
 	inc hl
