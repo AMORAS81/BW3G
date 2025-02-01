@@ -107,6 +107,114 @@ CheckPartyMove:
 	scf
 	ret
 
+CheckPartyCanLearnMove:
+; CHECK IF MONSTER IN PARTY CAN LEARN MOVE D
+	ld e, 0
+	xor a
+	ld [wCurPartyMon], a
+.loop
+	ld c, e
+	ld b, 0
+	ld hl, wPartySpecies
+	add hl, bc
+	ld a, [hl]
+	and a
+	jr z, .no
+	cp -1
+	jr z, .no
+	cp EGG
+	jr z, .next
+
+	ld [wCurPartySpecies], a
+	ld a, d
+; Check the TM/HM/Move Tutor list
+	ld [wPutativeTMHMMove], a
+	push de
+	farcall CanLearnTMHMMove
+	pop de
+.check
+	ld a, c
+	and a
+	jr nz, .yes
+; Check the Pokemon's Level-Up Learnset
+	ld b,b
+	ld a, d
+	push de
+	call OW_CheckLvlUpMoves
+	pop de
+	jr nc, .yes
+; done checking
+
+.next
+	inc e
+	jr .loop
+
+.yes
+	ld a, e
+	; which mon can learn the move
+	ld [wCurPartyMon], a
+	xor a
+	ret
+.no
+	ld a, 1
+	ret
+
+OW_CheckLvlUpMoves:
+; move looking for in a
+	ld d, a
+	ld a, [wCurPartySpecies]
+	dec a
+	ld b, 0
+	ld c, a
+	ld hl, EvosAttacksPointers
+	add hl, bc
+	add hl, bc
+	ld a, BANK(EvosAttacksPointers)
+	ld b, a
+	call GetFarHalfWord
+	ld a, b
+	call GetFarByte
+	inc hl
+	and a
+	jr z, .find_move ; no evolutions
+	dec hl ; does have evolution(s)
+	call OW_SkipEvolutions
+.find_move
+	call OW_GetNextEvoAttackByte
+	and a
+	jr z, .notfound ; end of mon's lvl up learnset
+	call OW_GetNextEvoAttackByte
+	cp d
+	jr z, .found
+	jr .find_move
+.found
+	xor a
+	ret ; move is in lvl up learnset
+.notfound
+	scf ; move isnt in lvl up learnset
+	ret
+
+OW_SkipEvolutions:
+; Receives a pointer to the evos and attacks, and skips to the attacks.
+	ld a, b
+	call GetFarByte
+	inc hl
+	and a
+	ret z
+	cp EVOLVE_STAT
+	jr nz, .no_extra_skip
+	inc hl
+.no_extra_skip
+	inc hl
+	inc hl
+	jr OW_SkipEvolutions
+
+OW_GetNextEvoAttackByte:
+	ld a, BANK(EvosAttacksPointers)
+	call GetFarByte
+	inc hl
+	ret
+
 FieldMoveFailed:
 	ld hl, .CantUseHere
 	call MenuTextBoxBackup
@@ -512,7 +620,20 @@ TrySurfOW::
 	ld de, ENGINE_GARNISHBADGE
 	call CheckEngineFlag
 	jr c, .quit
+; Step 2
+	ld a, HM_SURF
+	ld [wCurItem], a
+	ld hl, wNumItems
+	call CheckItem
+	jr z, .quit
 
+; Step 3
+  	ld d, SURF
+	call CheckPartyCanLearnMove
+	and a
+	jr z, .yes
+
+; Step 4
 	ld d, SURF
 	call CheckPartyMove
 	jr c, .quit
@@ -520,7 +641,7 @@ TrySurfOW::
 	ld hl, wBikeFlags
 	bit BIKEFLAGS_ALWAYS_ON_BIKE_F, [hl]
 	jr nz, .quit
-
+.yes
 	call GetSurfType
 	ld [wBuffer2], a
 	call GetPartyNick
@@ -881,12 +1002,29 @@ Text_UsedWaterfall:
 	text_end
 
 TryWaterfallOW::
-	ld d, WATERFALL
-	call CheckPartyMove
-	jr c, .failed
+; Step 1
 	ld de, ENGINE_JETBADGE
 	call CheckEngineFlag
 	jr c, .failed
+
+; Step 2
+	ld a, HM_WATERFALL
+	ld [wCurItem], a
+	ld hl, wNumItems
+	call CheckItem
+	jr z, .failed
+
+; Step 3
+	ld d, WATERFALL
+	call CheckPartyCanLearnMove
+	and a
+	jr z, .yes
+
+; Step 4
+	ld d, WATERFALL
+	call CheckPartyMove
+	jr c, .failed
+.yes
 	call CheckMapCanWaterfall
 	jr c, .tryleft
 	ld a, BANK(Script_AskWaterfall)
@@ -1313,14 +1451,30 @@ UnknownText_0xcd73:
 	text_end
 
 TryStrengthOW:
-	ld d, STRENGTH
-	call CheckPartyMove
-	jr c, .nope
-
+; Step 1
 	ld de, ENGINE_BASICBADGE
 	call CheckEngineFlag
 	jr c, .nope
 
+; Step 2
+	ld a, HM_STRENGTH
+	ld [wCurItem], a
+	ld hl, wNumItems
+	call CheckItem
+	jr z, .nope
+
+; Step 3
+	ld d, STRENGTH
+	call CheckPartyCanLearnMove
+	and a
+	jr z, .yes
+
+; Step 4
+	ld d, STRENGTH
+	call CheckPartyMove
+	jr c, .nope
+
+.yes
 	ld hl, wBikeFlags
 	bit BIKEFLAGS_STRENGTH_ACTIVE_F, [hl]
 	jr z, .already_using
@@ -2087,14 +2241,29 @@ GotOffTheBikeText:
 	text_end
 
 TryCutOW::
-	ld d, CUT
-	call CheckPartyMove
-	jr c, .cant_cut
-
+; Step 1
 	ld de, ENGINE_SPOOKYBADGE
 	call CheckEngineFlag
 	jr c, .cant_cut
 
+; Step 2
+	ld a, HM_CUT
+	ld [wCurItem], a
+	ld hl, wNumItems
+	call CheckItem
+	jr z, .cant_cut
+
+; Step 3
+	ld d, CUT
+	call CheckPartyCanLearnMove
+        and a
+	jr z, .yes
+
+; Step 4
+	ld d, CUT
+	call CheckPartyMove
+	jr c, .cant_cut
+.yes
 	ld a, BANK(AskCutScript)
 	ld hl, AskCutScript
 	call CallScript
