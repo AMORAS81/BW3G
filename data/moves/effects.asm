@@ -1738,23 +1738,31 @@ HealBell:
 	healbell
 	endmove
 
-LowKick:
+TripleKick:
 	checkobedience
 	usedmovetext
 	doturn
+	startloop
+	lowersub
+	checkhit
 	critical
-	weightdamage
+	damagestats
 	damagecalc
+	triplekick
 	stab
 	damagevariation
-	checkhit
-	hittarget
+	clearmissdamage
+	moveanimnosub
 	failuretext
-	checkfaint
+	applydamage
 	criticaltext
-	supereffectivetext
-	checkdestinybond
+	cleartext
+	supereffectivelooptext
+	checkfaint
 	buildopponentrage
+	kickcounter
+	endloop
+	raisesub
 	kingsrock
 	endmove
 
