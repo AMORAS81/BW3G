@@ -1552,8 +1552,6 @@ CalcMonStatC:
 
 .GotDV:
 	ld d, 0
-	add e
-	ld e, a
 	jr nc, .no_overflow_1
 	inc d
 
