@@ -3226,9 +3226,9 @@ GligarEvosAttacks:
 	db 30, MAGNITUDE ; U-turn
 	db 35, SCREECH
 	db 40, X_SCISSOR
-	db 45, DRAIN_PUNCH ; Sky Uppercut
+	db 45, EARTHQUAKE ; Sky Uppercut
 	db 50, SWORDS_DANCE
-	db 55, EARTHQUAKE ; Guillotine
+	db 55, AQUA_TAIL ; Guillotine
 	db 0 ; no more level-up moves
 
 GliscorEvosAttacks:
@@ -3253,9 +3253,9 @@ GliscorEvosAttacks:
 	db 30, MAGNITUDE ; U-turn
 	db 35, SCREECH
 	db 40, X_SCISSOR
-	db 45, DRAIN_PUNCH ; Sky Uppercut
+	db 45, EARTHQUAKE ; Sky Uppercut
 	db 50, SWORDS_DANCE
-	db 55, EARTHQUAKE ; Guillotine
+	db 55, AQUA_TAIL; Guillotine
 	db 0 ; no more level-up moves
 
 BaltoyEvosAttacks:
