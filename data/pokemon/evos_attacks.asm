@@ -4122,7 +4122,7 @@ SkarmoryEvosAttacks:
 	db 0 ; no more level-up moves
 
 MantykeEvosAttacks:
-	db EVOLVE_HAPPINESS_BABY, TR_NITE, MANTINE
+	db EVOLVE_PARTY, REMORAID, MANTINE
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, BUBBLE
