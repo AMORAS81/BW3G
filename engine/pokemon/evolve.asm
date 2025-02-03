@@ -98,6 +98,9 @@ EvolveAfterBattle_MasterLoop:
 	
 	cp EVOLVE_HOLD
 	jp z, .hold
+
+	cp EVOLVE_PARTY
+	jp z, .party
 	
 .skip_evolve:
 	call SkipEvo
@@ -279,6 +282,20 @@ EvolveAfterBattle_MasterLoop:
 	xor a
 	ld [hl], a
 	pop hl
+	; fallthrough
+
+.party
+	call IsMonHoldingEverstone
+	jp z, .dont_evolve_2
+
+	; Check if any of the party mons are the requested one
+	ld a, [hli]
+	ld b, a
+	push hl
+	farcall FindThatSpecies
+	pop hl
+	jp z, .dont_evolve_3
+
 	; fallthrough
 
 .proceed
@@ -609,6 +626,8 @@ LearnLevelMoves:
 	ld a, [wCurPartySpecies]
 	ld [wTempSpecies], a
 	ret
+
+
 
 FillMoves:
 ; Fill in moves at de for wCurPartySpecies at wCurPartyLevel
