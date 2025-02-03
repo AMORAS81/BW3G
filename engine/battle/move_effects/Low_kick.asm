@@ -1,4 +1,4 @@
-BattleCommand_LowKick:
+BattleCommand_lowKick:
 ; weightdamage
 
 	; Get the opponent's species
