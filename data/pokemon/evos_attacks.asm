@@ -28,6 +28,7 @@ EvoTypeSizes::
 	db 2 ; EVOLVE_HAPPINESS_BABY
 	db 3 ; EVOLVE_STAT
 	db 3 ; EVOLVE_HOLD
+	db 2 ; EVOLVE_PARTY
 
 SnivyEvosAttacks:
 	db EVOLVE_LEVEL, 17, SERVINE
