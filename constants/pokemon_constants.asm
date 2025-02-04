@@ -86,8 +86,8 @@
 	const AMPHAROS   ; 41
 	const DRILBUR    ; 42
 	const EXCADRILL  ; 43
-	const SNUBBULL   ; 44
-	const GRANBULL   ; 45
+	const SAMUROTT   ; 44
+	const MIMIKYU    ; 45
 	const RIOLU      ; 46
 	const LUCARIO    ; 47
 	const TIMBURR    ; 48
