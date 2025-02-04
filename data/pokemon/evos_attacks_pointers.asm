@@ -69,8 +69,8 @@ EvosAttacksPointers::
 	dw AmpharosEvosAttacks
 	dw DrilburEvosAttacks
 	dw ExcadrillEvosAttacks
-	dw SnubbullEvosAttacks
-	dw GranbullEvosAttacks
+	dw Samurott-hEvosAttacks
+	dw MimikyuEvosAttacks
 	dw RioluEvosAttacks
 	dw LucarioEvosAttacks
 	dw TimburrEvosAttacks
