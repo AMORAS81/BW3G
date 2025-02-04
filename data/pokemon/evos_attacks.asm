@@ -1406,25 +1406,20 @@ Samurott-hEvosAttacks:
 	db 63, MEGAHORN ; Added at Hydro Pump's original level
 	db 0 ; no more level-up moves
 
-GranbullEvosAttacks:
+MimikyuEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, OUTRAGE
-	db 1, FIRE_FANG
-	db 1, ICE_FANG
-	db 1, THUNDER_FANG
-	db 1, TACKLE
-	db 1, SCARY_FACE
-	db 1, TAIL_WHIP
-	db 1, CHARM
-	db 7, BITE
-	db 13, LICK
-	db 19, HEADBUTT
-	db 27, ROAR
-	db 35, DIZZY_PUNCH ; Rage
-	db 43, PLAY_ROUGH
-	db 51, IRON_TAIL ; Payback
-	db 59, CRUNCH
-	db 67, OUTRAGE
+	db 1, SCRATCH
+	db 1, DRAININGKISS
+	db 1, WOOD_HAMMER
+	db 6, SHADOW_SNEAK
+	db 12, DOUBLE_TEAM
+	db 18, CHARM
+	db 24, LEECH_LIFE
+	db 30, HONE_CLAWS
+	db 36, SLASH
+	db 42, SHADOW_CLAW
+	db 48, PLAY_ROUGH
+	db 54, PAIN_SPLIT
 	db 0 ; no more level-up moves
 
 RioluEvosAttacks:
