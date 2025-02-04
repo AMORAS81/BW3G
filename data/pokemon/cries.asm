@@ -72,8 +72,8 @@ PokemonCries::
 	mon_cry CRY_AMPHAROS,   -$07c,  $0e8 ; AMPHAROS
 	mon_cry CRY_TEDDIURSA,  -$018,  $0b3 ; DRILBUR
 	mon_cry CRY_NIDOQUEEN,  -$108,  $14d ; EXCADRILL
-	mon_cry CRY_DUNSPARCE,   $112,  $0e8 ; SNUBBULL
-	mon_cry CRY_DUNSPARCE,   $000,  $180 ; GRANBULL
+	mon_cry CRY_VULPIX,     -$200,  $140 ; SAMUROTT-H
+	mon_cry CRY_BULBASAUR,   $150,  $150 ; MIMIKYU
 	mon_cry CRY_SUNFLORA,    $702,  $100 ; RIOLU
 	mon_cry CRY_SLUGMA,     -$25c,  $0e0 ; LUCARIO
 	mon_cry CRY_SPEAROW,    -$080,  $0ac ; TIMBURR
