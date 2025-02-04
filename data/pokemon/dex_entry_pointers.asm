@@ -67,8 +67,8 @@ PokedexDataPointerTable:
 	dw AmpharosPokedexEntry
 	dw DrilburPokedexEntry
 	dw ExcadrillPokedexEntry
-	dw SnubbullPokedexEntry
-	dw GranbullPokedexEntry
+	dw Samurot-hPokedexEntry
+	dw MimikyuPokedexEntry
 	dw RioluPokedexEntry
 	dw LucarioPokedexEntry
 	dw TimburrPokedexEntry
