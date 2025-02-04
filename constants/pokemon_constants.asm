@@ -86,7 +86,7 @@
 	const AMPHAROS   ; 41
 	const DRILBUR    ; 42
 	const EXCADRILL  ; 43
-	const SAMUROTT   ; 44
+	const SAMUROTT-H ; 44
 	const MIMIKYU    ; 45
 	const RIOLU      ; 46
 	const LUCARIO    ; 47
