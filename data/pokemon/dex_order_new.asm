@@ -62,8 +62,8 @@ NewPokedexOrder:
 	db OCTILLERY  ; 3d
 	db BLITZLE    ; 3e
 	db ZEBSTRIKA  ; 3f
-	db SNUBBULL   ; 40
-	db GRANBULL   ; 41
+	db SAMUROTT-H ; 40
+	db MIMIKYU    ; 41
 	db RIOLU      ; 42
 	db LUCARIO    ; 43
 	db BASCULIN   ; 44
