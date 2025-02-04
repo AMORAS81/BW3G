@@ -1,5 +1,5 @@
 	db "DISGUISE@" ; species name
-	dw 407, 1070 ; height, weight
+	dw 008, 15 ; height, weight
 
 	db   "Its appearance is"
 	next "actually unknown."
