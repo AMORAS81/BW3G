@@ -1,64 +1,72 @@
-BattleCommand_Conversion2:
-; conversion2
+BattleCommand_WeightDamage:
+; weightdamage
 
-	ld a, [wAttackMissed]
+	; Get the opponent's species
+	ld a, [hBattleTurn]
 	and a
-	jr nz, .failed
-	ld hl, wBattleMonType1
-	ldh a, [hBattleTurn]
-	and a
-	jr z, .got_type
-	ld hl, wEnemyMonType1
-.got_type
-	ld a, BATTLE_VARS_LAST_COUNTER_MOVE_OPP
-	call GetBattleVar
-	and a
-	jr z, .failed
-	push hl
-	dec a
-	ld hl, Moves + MOVE_TYPE
-	call GetMoveAttr
-	ld d, a
-	pop hl
-	cp CURSE_T
-	jr z, .failed
-	call AnimateCurrentMove
-	call BattleCommand_SwitchTurn
+	ld a, [wBattleMonSpecies]
+	jr nz, .go
+	ld a, [wEnemyMonSpecies]
+.go
 
-.loop
-	call BattleRandom
-	maskbits NUM_TYPES
-	cp UNUSED_TYPES
-	jr c, .okay
-	cp UNUSED_TYPES_END
-	jr c, .loop
-	cp TYPES_END
-	jr nc, .loop
-.okay
-	ld [hli], a
-	ld [hld], a
-	push hl
-	ld a, BATTLE_VARS_MOVE_TYPE
+	; Get the dex entry
+	ld b, a
+	farcall GetDexEntryPointer  ; b:de
+	ld l, e
+	ld h, d
+
+	; Find and retrieve the weight
+.skip_name
+	ld a, b
+	call GetFarByte
+	inc hl
+	cp "@"
+	jr nz, .skip_name
+	inc hl
+	inc hl
+	ld a, b
+	call GetFarHalfword
+	ld c, l
+	ld b, h
+
+	; Get the resulting power from the table
+	ld hl, .table
+.table_loop
+	ld e, [hl]
+	inc hl
+	ld d, [hl]
+	inc hl
+
+	; if (de >= bc) jr .table_loop_end;
+	ld a, b
+	cp d
+	jr c, .table_loop_next
+	jr nz, .table_loop_end
+	ld a, c
+	cp e
+	jr nc, .table_loop_end
+.table_loop_next
+	inc hl
+	jr .table_loop
+.table_loop_end
+
+	; Overwrite the current move power
+	ld b, [hl]
+	ld a, BATTLE_VARS_MOVE_POWER
 	call GetBattleVarAddr
-	push af
-	push hl
-	ld a, d
-	ld [hl], a
-	call BattleCheckTypeMatchup
-	pop hl
-	pop af
-	ld [hl], a
-	pop hl
-	ld a, [wTypeMatchup]
-	cp EFFECTIVE
-	jr nc, .loop
-	call BattleCommand_SwitchTurn
+	ld [hl], b
 
-	ld a, [hl]
-	ld [wNamedObjectIndexBuffer], a
-	predef GetTypeName
-	ld hl, TransformedTypeText
-	jp StdBattleTextBox
+	; Do the rest
+	jp BattleCommand_DamageStats
 
-.failed
-	jp FailMove
+; The output with these specific values is correct,
+;  but it might be inaccurate for other values, especially bigger ones.
+kg EQUS "* 10000000 / 453592"
+.table
+	dwb 200 kg, 120
+	dwb 100 kg, 100
+	dwb 50 kg, 80
+	dwb 25 kg, 60
+	dwb 10 kg, 40
+	dwb 0 kg, 20
+
