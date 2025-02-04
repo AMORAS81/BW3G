@@ -66,8 +66,8 @@ EggMovePointers::
 	dw NoEggMoves
 	dw DrilburEggMoves
 	dw NoEggMoves
-	dw SnubbullEggMoves
 	dw NoEggMoves
+	dw MimikyuEggMoves
 	dw RioluEggMoves
 	dw NoEggMoves
 	dw TimburrEggMoves
