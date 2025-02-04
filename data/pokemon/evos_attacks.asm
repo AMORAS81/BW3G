@@ -1380,21 +1380,30 @@ ExcadrillEvosAttacks:
 	db 55, IRON_HEAD ; Drill Run
 	db 0 ; no more level-up moves
 
-SnubbullEvosAttacks:
-	db EVOLVE_LEVEL, 23, GRANBULL
+Samurott-hEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, SLASH
+	db 1, MEGAHORN
 	db 1, TACKLE
-	db 1, SCARY_FACE
 	db 1, TAIL_WHIP
-	db 1, CHARM
-	db 7, BITE
-	db 13, LICK
-	db 19, HEADBUTT
-	db 25, ROAR
-	db 31, DIZZY_PUNCH ; Rage
-	db 37, PLAY_ROUGH
-	db 43, IRON_TAIL ; Payback
-	db 49, CRUNCH
+	db 1, WATER_GUN
+	db 1, SUCKER_PUNCH
+	db 1, FOCUS_ENERGY
+	db 1, NIGHT_SLASH
+	db 5, TAIL_WHIP
+	db 13, FOCUS_ENERGY
+	db 16, BUBBLEBEAM ; Razor Shell
+	db 21, FURY_CUTTER
+	db 26, WATER_PULSE
+	db 29, KARATE_CHOP ; Revenge
+	db 34, AQUA_JET
+	db 35, SLASH
+	db 39, ENCORE
+	db 46, AQUA_TAIL
+	; Removed Retaliate
+	db 51, SWORDS_DANCE
+	db 58, HYDRO_PUMP
+	db 63, MEGAHORN ; Added at Hydro Pump's original level
 	db 0 ; no more level-up moves
 
 GranbullEvosAttacks:
