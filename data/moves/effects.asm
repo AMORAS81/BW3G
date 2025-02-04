@@ -2453,3 +2453,23 @@ Hail:
 	doturn
 	starthail
 	endmove
+
+WeightDamage:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	weightdamage
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	hittarget
+	failuretext
+	checkfaint
+	criticaltext
+	supereffectivetext
+	checkdestinybond
+	buildopponentrage
+	kingsrock
+	endmove
