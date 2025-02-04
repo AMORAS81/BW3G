@@ -2465,7 +2465,6 @@ WeightDamage:
 	damagevariation
 	checkhit
 	moveanim
-	hittarget
 	failuretext
 	applydamage
 	criticaltext
@@ -2474,4 +2473,5 @@ WeightDamage:
 	buildopponentrage
 	kingsrock
 	endmove
+	
 	
