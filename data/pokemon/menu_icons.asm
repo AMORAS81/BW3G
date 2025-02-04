@@ -68,8 +68,8 @@ MonMenuIcons:
 	db ICON_AMPHAROS   ; 41
 	db ICON_DRILBUR    ; 42
 	db ICON_EXCADRILL  ; 43
-	db ICON_SNUBBULL   ; 44
-	db ICON_GRANBULL   ; 45
+	db ICON_SAMUROTT-H ; 44
+	db ICON_MIMIKYU    ; 45
 	db ICON_RIOLU      ; 46
 	db ICON_LUCARIO    ; 47
 	db ICON_TIMBURR    ; 48
