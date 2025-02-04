@@ -193,3 +193,4 @@ BattleCommandPointers:
 	dw BattleCommand_SuckerPunch
 	dw BattleCommand_BugBite
 	dw BattleCommand_StartHail
+	dw BattleCommand_WeightDamage
