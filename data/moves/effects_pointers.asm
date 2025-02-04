@@ -175,3 +175,4 @@ MoveEffectsPointers:
 	dw FreezeHit ; Blizzard
 	dw Hail
 	dw FireSpin
+	dw WeightDamage
