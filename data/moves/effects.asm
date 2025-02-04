@@ -2456,20 +2456,22 @@ Hail:
 
 WeightDamage:
 	checkobedience
-	usedmovetext
 	doturn
+	usedmovetext
 	critical
 	weightdamage
 	damagecalc
 	stab
 	damagevariation
 	checkhit
+	moveanim
 	hittarget
 	failuretext
-	checkfaint
+	applydamage
 	criticaltext
 	supereffectivetext
-	checkdestinybond
+	checkfaint
 	buildopponentrage
 	kingsrock
 	endmove
+	
