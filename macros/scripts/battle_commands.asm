@@ -194,6 +194,7 @@ ENDM
 	command suckerpunch             ; bb
 	command bugbite                 ; bc
 	command starthail               ; bd
+	command weightdamage            ; be
 
 	enum_start $fe
 	command endturn                 ; fe
