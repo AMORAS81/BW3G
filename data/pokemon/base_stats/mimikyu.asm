@@ -1,6 +1,6 @@
 	db MIMIKYU ; 210
 
-	db  90, 120,  75,  45,  60,  60
+	db  55, 90,  80,  96,  50,  105
 	;   hp  atk  def  spd  sat  sdf
 
 	db GHOST, FAIRY ; type
