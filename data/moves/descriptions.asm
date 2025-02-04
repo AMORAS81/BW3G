@@ -541,8 +541,8 @@ MoonblastDescription:
 	next "lower SPCL.ATK.@"
 
 LowKickDescription:
-	db   "An attack that may"
-	next "cause flinching.@"
+	db   "Is more powerful"
+	next "on heavier foes.@"
 
 CounterDescription:
 	db   "Returns a physical"
