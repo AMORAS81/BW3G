@@ -68,8 +68,8 @@
 	const ICON_AMPHAROS   ; 41
 	const ICON_DRILBUR    ; 42
 	const ICON_EXCADRILL  ; 43
-	const ICON_SNUBBULL   ; 44
-	const ICON_GRANBULL   ; 45
+	const ICON_SAMUROTT-H ; 44
+	const ICON_MIMIKYU    ; 45
 	const ICON_RIOLU      ; 46
 	const ICON_LUCARIO    ; 47
 	const ICON_TIMBURR    ; 48
