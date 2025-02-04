@@ -197,15 +197,9 @@ DrilburEggMoves:
 	db IRON_DEFENSE
 	db -1 ; end
 
-SnubbullEggMoves:
-	db CLOSE_COMBAT
-	db CRUNCH
-	db DOUBLE_EDGE
-	db FAINT_ATTACK
-	db FIRE_FANG
-	db ICE_FANG
-	db METRONOME
-	db THUNDER_FANG
+MimikyuEggMoves:
+	db CURSE
+	db DESTINY_BOND
 	db -1 ; end
 
 RioluEggMoves:
