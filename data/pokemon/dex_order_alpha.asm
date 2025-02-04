@@ -99,7 +99,6 @@ AlphabeticalPokedexOrder:
 	db GOTHITA
 	db GOTHITELLE
 	db GOTHORITA
-	db GRANBULL
 	db GURDURR
 	db HAUNTER
 	db HAXORUS
@@ -153,6 +152,7 @@ AlphabeticalPokedexOrder:
 	db MEDITITE
 	db METAGROSS
 	db METANG
+	db MIMIKYU
 	db MUNNA
 	db MUSHARNA
 	db NINETALES
@@ -181,6 +181,7 @@ AlphabeticalPokedexOrder:
 	db ROSERADE
 	db RUFFLET
 	db SAMUROTT
+	db SAMUROTT-H
 	db SANDILE
 	db SAWK
 	db SAWSBUCK
@@ -201,7 +202,6 @@ AlphabeticalPokedexOrder:
 	db SNEASEL
 	db SNIVY
 	db SNORUNT
-	db SNUBBULL
 	db SOLOSIS
 	db SPHEAL
 	db SPIRITOMB
