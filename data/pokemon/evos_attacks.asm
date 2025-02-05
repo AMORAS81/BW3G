@@ -1784,54 +1784,42 @@ DrifblimEvosAttacks:
 	db 65, HURRICANE ; Phantom Force
 	db 0 ; no more level-up moves
 
-MedititeEvosAttacks:
-	db EVOLVE_LEVEL, 37, MEDICHAM
+MienfooEvosAttacks:
+	db EVOLVE_LEVEL, 50, MIENSHAO
 	db 0 ; no more evolutions
-	db 1, DEFENSE_CURL ; Bide
-	db 4, DOUBLESLAP ; Meditate
-	db 7, CONFUSION
-	db 9, PROTECT ; Detect
-	db 12, ENDURE
-	db 15, MACH_PUNCH ; Feint
-	db 17, KARATE_CHOP ; Force Palm
-	db 20, HIDDEN_POWER
-	db 23, CALM_MIND
-	db 25, LOCK_ON ; Mind Reader
-	db 28, HI_JUMP_KICK
-	db 31, PSYCH_UP
-	db 33, SWORDS_DANCE ; Acupressure
-	db 36, ZEN_HEADBUTT ; Power Trick
-	db 39, AURA_SPHERE ; Reversal
-	db 41, RECOVER
-	db 44, COUNTER
+	db 1, DOUBLESLAP ; Meditate
+	db 1, QUICK_ATTACK
+	db 1, PROTECT ; Detect
+	db 10, REVERSAL
+	db 15, FURY_SWIPES
+	db 20, VITAL_THROW
+	db 25, DOUBLE_KICK
+	db 30, ACROBATICS
+	db 35, DRAIN_PUNCH
+	db 40, HONE_CLAWS
+	db 45, AURA_SPHERE
+	db 51, CALM_MIND
+	db 55, HI_JUMP_KICK
+	db 60, CLOSE_COMBAT
 	db 0 ; no more level-up moves
 
-MedichamEvosAttacks:
+MienshaoEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, ZEN_HEADBUTT
-	db 1, FIRE_PUNCH
-	db 1, ICE_PUNCH
-	db 1, THUNDERPUNCH
-	db 1, DEFENSE_CURL ; Bide
+	db 1, CROSS_POISON
 	db 1, DOUBLESLAP ; Meditate
-	db 1, CONFUSION
+	db 1, QUICK_ATTACK
 	db 1, PROTECT ; Detect
-	db 4, DOUBLESLAP ; Meditate
-	db 7, CONFUSION
-	db 9, PROTECT ; Detect
-	db 12, ENDURE
-	db 15, MACH_PUNCH ; Feint
-	db 17, KARATE_CHOP ; Force Palm
-	db 20, HIDDEN_POWER
-	db 23, CALM_MIND
-	db 25, LOCK_ON ; Mind Reader
-	db 28, HI_JUMP_KICK
-	db 31, PSYCH_UP
-	db 33, SWORDS_DANCE ; Acupressure
-	db 36, ZEN_HEADBUTT ; Power Trick
-	db 42, AURA_SPHERE ; Reversal
-	db 47, RECOVER
-	db 53, COUNTER
+	db 10, REVERSAL
+	db 15, FURY_SWIPES
+	db 20, VITAL_THROW
+	db 25, DOUBLE_KICK
+	db 30, ACROBATICS
+	db 35, DRAIN_PUNCH
+	db 40, HONE_CLAWS
+	db 45, AURA_SPHERE
+	db 53, CALM_MIND
+	db 59, HI_JUMP_KICK
+	db 66, CLOSE_COMBAT
 	db 0 ; no more level-up moves
 
 HoundourEvosAttacks:
