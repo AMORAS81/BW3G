@@ -66,8 +66,8 @@ Pokered_MonIndices:
 	db AMPHAROS   ; 41
 	db DRILBUR    ; 42
 	db EXCADRILL  ; 43
-	db SNUBBULL   ; 44
-	db GRANBULL   ; 45
+	db SAMUROTT-H ; 44
+	db MIMIKYU    ; 45
 	db RIOLU      ; 46
 	db LUCARIO    ; 47
 	db TIMBURR    ; 48
