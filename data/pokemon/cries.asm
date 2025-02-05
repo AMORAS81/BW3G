@@ -91,8 +91,8 @@ PokemonCries::
 	mon_cry CRY_METAPOD,     $193,  $150 ; CRUSTLE
 	mon_cry CRY_RAICHU,     -$056,  $126 ; DRIFLOON
 	mon_cry CRY_DROWZEE,    -$21c,  $100 ; DRIFBLIM
-	mon_cry CRY_MEDITITE,    $233,  $080 ; MEDITITE
-	mon_cry CRY_MEDITITE,    $083,  $100 ; MEDICHAM
+	mon_cry CRY_YAMASK,     -$050,  $150 ; MIENFOO
+	mon_cry CRY_TEDDIURSA,  -$100,  $106 ; MIENSHAO
 	mon_cry CRY_CYNDAQUIL,   $039,  $140 ; HOUNDOUR
 	mon_cry CRY_TOTODILE,   -$10a,  $100 ; HOUNDOOM
 	mon_cry CRY_YAMASK,      $010,  $128 ; YAMASK
