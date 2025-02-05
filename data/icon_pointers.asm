@@ -68,8 +68,8 @@ IconPointers:
 	dw AmpharosIcon
 	dw DrilburIcon
 	dw ExcadrillIcon
-	dw MimikyuIcon
 	dw Samurott-hIcon
+	dw MimikyuIcon
 	dw RioluIcon
 	dw LucarioIcon
 	dw TimburrIcon
