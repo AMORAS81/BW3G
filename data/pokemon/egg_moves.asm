@@ -276,15 +276,10 @@ DrifloonEggMoves:
 	db HYPNOSIS
 	db -1 ; end
 
-MedititeEggMoves:
-	db BULLET_PUNCH
-	db DRAIN_PUNCH
-	db DYNAMICPUNCH
-	db FIRE_PUNCH
-	db FORESIGHT
-	db ICE_PUNCH
-	db PSYCHO_CUT
-	db THUNDERPUNCH
+MienfooEggMoves:
+	db VITAL_THROW
+	db LOW_KICK
+	db ENDURE
 	db -1 ; end
 
 HoundourEggMoves:
