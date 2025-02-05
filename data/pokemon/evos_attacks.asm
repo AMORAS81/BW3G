@@ -1820,9 +1820,10 @@ MienshaoEvosAttacks:
 	db 37, AURA_SPHERE
 	db 41, TAKE_DOWN
 	db 45, AGILITY
-	db 53, ACROBATICS
-	db 59, HI_JUMP_KICK
-	db 66, CLOSE_COMBAT
+	db 49, ACROBATICS
+	db 56, HI_JUMP_KICK
+	db 63, CLOSE_COMBAT
+	db 70, FOCUS_BLAST
 	db 0 ; no more level-up moves
 
 HoundourEvosAttacks:
