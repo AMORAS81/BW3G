@@ -17,7 +17,7 @@ ENDM
 
 Moves:
 ; entries correspond to constants/move_constants.asm
-	move VINE_WHIP,    EFFECT_NORMAL_HIT,         35, GRASS, PHYSICAL,    100, 15,   0
+	move VINE_WHIP,    EFFECT_NORMAL_HIT,         45, GRASS, PHYSICAL,    100, 15,   0
 	move RAZOR_LEAF,   EFFECT_NORMAL_HIT,         55, GRASS, PHYSICAL,     95, 25,   0
 	move SEED_BOMB,    EFFECT_NORMAL_HIT,         80, GRASS, PHYSICAL,    100, 15,   0
 	move LEAF_BLADE,   EFFECT_NORMAL_HIT,         90, GRASS, PHYSICAL,    100, 15,   0
@@ -255,7 +255,7 @@ Moves:
 	move FOCUS_ENERGY, EFFECT_FOCUS_ENERGY,        0, NORMAL, STATUS,     100, 30,   0
 	move SWORDS_DANCE, EFFECT_ATTACK_UP_2,         0, NORMAL, STATUS,     100, 20,   0
 	move METRONOME,    EFFECT_METRONOME,           0, NORMAL, STATUS,     100, 10,   0
-	move TRANSFORM,    EFFECT_TRANSFORM,           0, NORMAL, STATUS,     100, 10,   0
+	move CRABHAMMER,   EFFECT_NORMAL_HIT,        100, WATER, PHYSICAL,     90, 10,   0
 	move MEAN_LOOK,    EFFECT_MEAN_LOOK,           0, NORMAL, STATUS,     100,  5,   0
 	move SCARY_FACE,   EFFECT_SPEED_DOWN_2,        0, NORMAL, STATUS,     100, 10,   0
 	move SAFEGUARD,    EFFECT_SAFEGUARD,           0, NORMAL, STATUS,     100, 25,   0
