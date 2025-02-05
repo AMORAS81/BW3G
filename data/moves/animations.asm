@@ -50,7 +50,7 @@ BattleAnimations::
 	dw BattleAnim_Discharge
 	dw BattleAnim_Thunderbolt
 	dw BattleAnim_Thunder
-	dw BattleAnim_ZapCannon
+	dw BattleAnim_Crabhammer
 	dw BattleAnim_ThunderWave
 	dw BattleAnim_IceShard
 	dw BattleAnim_IceFang
@@ -4380,18 +4380,16 @@ BattleAnim_MudSlap:
 	anim_call BattleAnim_MudSlap_branch_cbc5b
 	anim_ret
 
-BattleAnim_ZapCannon:
-	anim_2gfx ANIM_GFX_LIGHTNING, ANIM_GFX_EXPLOSION
-	anim_bgp $1b
-	anim_obp0 $30
-	anim_sound 6, 2, SFX_ZAP_CANNON
-	anim_obj ANIM_OBJ_ZAP_CANNON, 64, 92, $2
-	anim_wait 40
-	anim_sound 0, 1, SFX_THUNDERSHOCK
-	anim_obj ANIM_OBJ_LIGHTNING_BOLT, 136, 56, $2
-	anim_wait 16
-	anim_obj ANIM_OBJ_31, 136, 56, $0
-	anim_wait 128
+BattleAnim_Crabhammer:
+	anim_1gfx BATTLE_ANIM_GFX_HIT
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0
+	anim_wait 48
+	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $3
+.loop
+	anim_sound 0, 1, SFX_MEGA_PUNCH
+	anim_obj BATTLE_ANIM_OBJ_HIT_BIG_YFIX, 136, 56, $0
+	anim_wait 12
+	anim_loop 3, .loop
 	anim_ret
 
 BattleAnim_Foresight:
