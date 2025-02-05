@@ -49,7 +49,7 @@ MoveDescriptions::
 	dw DischargeDescription
 	dw ThunderboltDescription
 	dw ThunderDescription
-	dw ZapCannonDescription
+	dw CrabhammerDescription
 	dw ThunderWaveDescription
 	dw IceShardDescription
 	dw IceFangDescription
@@ -1040,9 +1040,9 @@ VenoshockDescription:
 	db   "2x damage if enemy"
 	next "is poisoned.@"
 
-ZapCannonDescription:
-	db   "An attack that"
-	next "always paralyzes.@"
+CrabhammerDescription:
+	db   "Has a high criti-"
+	next "cal hit ratio.@"
 
 ForesightDescription:
 	db   "Negates accuracy"
