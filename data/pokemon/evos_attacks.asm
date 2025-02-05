@@ -177,6 +177,7 @@ OshawottEvosAttacks:
 
 DewottEvosAttacks:
 	db EVOLVE_LEVEL, 36, SAMUROTT
+	db EVOLVE_ITEM, DUSK_STONE, SAMUROTT-H
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 5, TAIL_WHIP
