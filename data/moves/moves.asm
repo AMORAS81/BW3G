@@ -17,7 +17,7 @@ ENDM
 
 Moves:
 ; entries correspond to constants/move_constants.asm
-	move VINE_WHIP,    EFFECT_NORMAL_HIT,         45, GRASS, PHYSICAL,    100, 15,   0
+	move VINE_WHIP,    EFFECT_NORMAL_HIT,         35, GRASS, PHYSICAL,    100, 15,   0
 	move RAZOR_LEAF,   EFFECT_NORMAL_HIT,         55, GRASS, PHYSICAL,     95, 25,   0
 	move SEED_BOMB,    EFFECT_NORMAL_HIT,         80, GRASS, PHYSICAL,    100, 15,   0
 	move LEAF_BLADE,   EFFECT_NORMAL_HIT,         90, GRASS, PHYSICAL,    100, 15,   0
@@ -66,7 +66,7 @@ Moves:
 	move DISCHARGE,    EFFECT_PARALYZE_HIT,       80, ELECTRIC, SPECIAL,  100, 15,  30
 	move THUNDERBOLT,  EFFECT_PARALYZE_HIT,       90, ELECTRIC, SPECIAL,  100, 15,  10
 	move THUNDER,      EFFECT_THUNDER,           110, ELECTRIC, SPECIAL,   70, 10,  30
-	move ZAP_CANNON,   EFFECT_PARALYZE_HIT,      120, ELECTRIC, SPECIAL,   50,  5, 100
+	move CRABHAMMER,   EFFECT_NORMAL_HIT,        100, WATER, PHYSICAL      90, 10,   0
 	move THUNDER_WAVE, EFFECT_PARALYZE,            0, ELECTRIC, STATUS,   100, 20,   0
 	move ICE_SHARD,    EFFECT_PRIORITY_HIT,       40, ICE, PHYSICAL,      100, 30,   0
 	move ICE_FANG,     EFFECT_ICE_FANG,           65, ICE, PHYSICAL,       95, 15,  10
@@ -255,7 +255,7 @@ Moves:
 	move FOCUS_ENERGY, EFFECT_FOCUS_ENERGY,        0, NORMAL, STATUS,     100, 30,   0
 	move SWORDS_DANCE, EFFECT_ATTACK_UP_2,         0, NORMAL, STATUS,     100, 20,   0
 	move METRONOME,    EFFECT_METRONOME,           0, NORMAL, STATUS,     100, 10,   0
-	move CRABHAMMER,   EFFECT_NORMAL_HIT,        100, WATER, PHYSICAL,     90, 10,   0
+	move TRANSFORM,    EFFECT_TRANSFORM,           0, NORMAL, STATUS,     100, 10,   0
 	move MEAN_LOOK,    EFFECT_MEAN_LOOK,           0, NORMAL, STATUS,     100,  5,   0
 	move SCARY_FACE,   EFFECT_SPEED_DOWN_2,        0, NORMAL, STATUS,     100, 10,   0
 	move SAFEGUARD,    EFFECT_SAFEGUARD,           0, NORMAL, STATUS,     100, 25,   0
@@ -272,4 +272,5 @@ Moves:
 	move FORESIGHT,    EFFECT_FORESIGHT,           0, NORMAL, STATUS,     100, 40,   0
 	move ATTRACT,      EFFECT_ATTRACT,             0, NORMAL, STATUS,     100, 15,   0
 	move STRUGGLE,     EFFECT_RECOIL_HIT,         50, NORMAL, PHYSICAL,   100,  1,   0	
+		
 	
