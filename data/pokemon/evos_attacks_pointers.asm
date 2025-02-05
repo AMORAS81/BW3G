@@ -88,8 +88,8 @@ EvosAttacksPointers::
 	dw CrustleEvosAttacks
 	dw DrifloonEvosAttacks
 	dw DrifblimEvosAttacks
-	dw MedititeEvosAttacks
-	dw MedichamEvosAttacks
+	dw MienfooEvosAttacks
+	dw MienshaoEvosAttacks
 	dw HoundourEvosAttacks
 	dw HoundoomEvosAttacks
 	dw YamaskEvosAttacks
