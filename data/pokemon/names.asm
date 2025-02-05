@@ -85,7 +85,7 @@ PokemonNames::
 	db "CRUSTLE@@@"
 	db "DRIFLOON@@"
 	db "DRIFBLIM@@"
-	db "MEDITITE@@"
+	db "MIENSHAO@@"
 	db "MEDICHAM@@"
 	db "HOUNDOUR@@"
 	db "HOUNDOOM@@"
