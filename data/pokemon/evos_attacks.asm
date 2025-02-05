@@ -1787,37 +1787,40 @@ DrifblimEvosAttacks:
 MienfooEvosAttacks:
 	db EVOLVE_LEVEL, 50, MIENSHAO
 	db 0 ; no more evolutions
-	db 1, DOUBLESLAP ; Meditate
-	db 1, QUICK_ATTACK
-	db 1, PROTECT ; Detect
-	db 10, REVERSAL
-	db 15, FURY_SWIPES
-	db 20, LOW_KICK
-	db 25, VITAL_THROW
-	db 30, ACROBATICS
-	db 35, DRAIN_PUNCH
-	db 40, HONE_CLAWS
-	db 45, AURA_SPHERE
-	db 51, CALM_MIND
-	db 55, HI_JUMP_KICK
-	db 60, CLOSE_COMBAT
+	db 1, DOUBLESLAP
+	db 5, HONE_CLAWS
+	db 9, PROTECT ; Detect
+	db 13, QUICK_ATTACK
+	db 17, LOW_KICK
+	db 21, SWIFT
+	db 25, CALM_MIND
+	db 29, REVERSAL
+	db 33, DRAIN_PUNCH
+	db 37, AURA_SPHERE
+	db 41, TAKE_DOWN
+	db 45, AGILITY
+	db 49, ACROBATICS
+	db 50, HI_JUMP_KICK
+	db 57, CLOSE_COMBAT
+	db 61, FOCUS_BLAST
 	db 0 ; no more level-up moves
 
 MienshaoEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, CROSS_POISON
-	db 1, DOUBLESLAP ; Meditate
-	db 1, QUICK_ATTACK
-	db 1, PROTECT ; Detect
-	db 10, REVERSAL
-	db 15, FURY_SWIPES
-	db 20, LOW_KICK
-	db 25, VITAL_THROW
-	db 30, ACROBATICS
-	db 35, DRAIN_PUNCH
-	db 40, HONE_CLAWS
-	db 45, AURA_SPHERE
-	db 53, CALM_MIND
+	db 1, DOUBLESLAP
+	db 5, HONE_CLAWS
+	db 9, PROTECT ; Detect
+	db 13, QUICK_ATTACK
+	db 17, LOW_KICK
+	db 21, SWIFT
+	db 25, CALM_MIND
+	db 29, REVERSAL
+	db 33, DRAIN_PUNCH
+	db 37, AURA_SPHERE
+	db 41, TAKE_DOWN
+	db 45, AGILITY
+	db 53, ACROBATICS
 	db 59, HI_JUMP_KICK
 	db 66, CLOSE_COMBAT
 	db 0 ; no more level-up moves
