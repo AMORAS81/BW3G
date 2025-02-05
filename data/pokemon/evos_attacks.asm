@@ -1792,8 +1792,8 @@ MienfooEvosAttacks:
 	db 1, PROTECT ; Detect
 	db 10, REVERSAL
 	db 15, FURY_SWIPES
-	db 20, VITAL_THROW
-	db 25, DOUBLE_KICK
+	db 20, LOW_KICK
+	db 25, VITAL_THROW
 	db 30, ACROBATICS
 	db 35, DRAIN_PUNCH
 	db 40, HONE_CLAWS
@@ -1811,8 +1811,8 @@ MienshaoEvosAttacks:
 	db 1, PROTECT ; Detect
 	db 10, REVERSAL
 	db 15, FURY_SWIPES
-	db 20, VITAL_THROW
-	db 25, DOUBLE_KICK
+	db 20, LOW_KICK
+	db 25, VITAL_THROW
 	db 30, ACROBATICS
 	db 35, DRAIN_PUNCH
 	db 40, HONE_CLAWS
