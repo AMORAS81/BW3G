@@ -136,10 +136,10 @@ PokemonPicPointers::
 	dba DrilburBackpic
 	dba ExcadrillFrontpic
 	dba ExcadrillBackpic
-	dba SnubbullFrontpic
-	dba SnubbullBackpic
-	dba GranbullFrontpic
-	dba GranbullBackpic
+	dba Samurott-hFrontpic
+	dba Samurott-hBackpic
+	dba MimikyuFrontpic
+	dba MimikyuBackpic
 	dba RioluFrontpic
 	dba RioluBackpic
 	dba LucarioFrontpic
