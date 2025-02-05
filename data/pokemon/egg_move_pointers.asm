@@ -85,7 +85,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw DrifloonEggMoves
 	dw NoEggMoves
-	dw MedititeEggMoves
+	dw MienfooEggMoves
 	dw NoEggMoves
 	dw HoundourEggMoves
 	dw NoEggMoves
