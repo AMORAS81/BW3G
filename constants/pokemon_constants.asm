@@ -105,8 +105,8 @@
 	const CRUSTLE    ; 54
 	const DRIFLOON   ; 55
 	const DRIFBLIM   ; 56
-	const MEDITITE   ; 57
-	const MEDICHAM   ; 58
+	const MIENFOO    ; 57
+	const MIENSHAO   ; 58
 	const HOUNDOUR   ; 59
 	const HOUNDOOM   ; 5a
 	const YAMASK     ; 5b
