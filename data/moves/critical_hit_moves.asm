@@ -2,6 +2,7 @@ CriticalHitMoves:
 	db KARATE_CHOP
 	db STONE_EDGE
 	db RAZOR_LEAF
+	db CRABHAMMER
 	db PSYCHO_CUT
 	db SLASH
 	db CROSS_CHOP
