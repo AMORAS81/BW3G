@@ -48,7 +48,7 @@ MoveNames::
 	db "DISCHARGE@"
 	db "THUNDERBOLT@"
 	db "THUNDER@"
-	db "ZAP CANNON@"
+	db "CRABHAMMER@"
 	db "THUNDER WAVE@"
 	db "ICE SHARD@"
 	db "ICE FANG@"
