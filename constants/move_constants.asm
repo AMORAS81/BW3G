@@ -55,7 +55,7 @@
 	const DISCHARGE    ; 2f
 	const THUNDERBOLT  ; 30
 	const THUNDER      ; 31
-	const ZAP_CANNON   ; 32
+	const CRABHAMMER   ; 32
 	const THUNDER_WAVE ; 33
 	const ICE_SHARD    ; 34
 	const ICE_FANG     ; 35
