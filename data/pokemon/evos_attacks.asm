@@ -1317,7 +1317,7 @@ FlaaffyEvosAttacks:
 AmpharosEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, THUNDERPUNCH
-	db 1, ZAP_CANNON
+	db 1, THUNDER
 	db 1, DRAGON_PULSE
 	db 1, FIRE_PUNCH
 	db 1, TACKLE
@@ -1654,7 +1654,7 @@ NosepassEvosAttacks:
 	db 37, EARTH_POWER
 	db 40, STONE_EDGE
 	db 43, LOCK_ON
-	db 43, ZAP_CANNON
+	db 43, THUNDER
 	db 0 ; no more level-up moves
 
 ProbopassEvosAttacks:
@@ -1678,7 +1678,7 @@ ProbopassEvosAttacks:
 	db 37, EARTH_POWER
 	db 40, STONE_EDGE
 	db 43, LOCK_ON
-	db 43, ZAP_CANNON
+	db 43, THUNDER
 	db 0 ; no more level-up moves
 
 MawileEvosAttacks:
@@ -2352,7 +2352,7 @@ MagnemiteEvosAttacks:
 	db 41, LOCK_ON
 	db 43, REFLECT ; Magnet Rise
 	db 47, IRON_HEAD ; Gyro Ball
-	db 49, ZAP_CANNON
+	db 49, THUNDER
 	db 0 ; no more level-up moves
 
 MagnetonEvosAttacks:
@@ -2375,13 +2375,13 @@ MagnetonEvosAttacks:
 	db 49, LOCK_ON
 	db 53, REFLECT ; Magnet Rise
 	db 59, IRON_HEAD ; Gyro Ball
-	db 63, ZAP_CANNON
+	db 63, THUNDER
 	db 0 ; no more level-up moves
 
 MagnezoneEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TRI_ATTACK
-	db 1, ZAP_CANNON
+	db 1, THUNDER
 	db 1, BARRIER
 	db 1, MIRROR_COAT
 	db 1, TACKLE
@@ -2403,7 +2403,7 @@ MagnezoneEvosAttacks:
 	db 49, LOCK_ON
 	db 53, REFLECT ; Magnet Rise
 	db 47, IRON_HEAD ; Gyro Ball
-	db 63, ZAP_CANNON
+	db 63, THUNDER
 	db 0 ; no more level-up moves
 
 GothitaEvosAttacks:
@@ -3226,9 +3226,9 @@ GligarEvosAttacks:
 	db 30, MAGNITUDE ; U-turn
 	db 35, SCREECH
 	db 40, X_SCISSOR
-	db 45, EARTHQUAKE ; Sky Uppercut
+	db 45, CRABHAMMER ; Sky Uppercut
 	db 50, SWORDS_DANCE
-	db 55, AQUA_TAIL ; Guillotine
+	db 55, EARTHQUAKE ; Guillotine
 	db 0 ; no more level-up moves
 
 GliscorEvosAttacks:
@@ -3253,9 +3253,9 @@ GliscorEvosAttacks:
 	db 30, MAGNITUDE ; U-turn
 	db 35, SCREECH
 	db 40, X_SCISSOR
-	db 45, EARTHQUAKE ; Sky Uppercut
+	db 45, CRABHAMMER ; Sky Uppercut
 	db 50, SWORDS_DANCE
-	db 55, AQUA_TAIL; Guillotine
+	db 55, EARTHQUAKE ; Guillotine
 	db 0 ; no more level-up moves
 
 BaltoyEvosAttacks:
@@ -3502,7 +3502,7 @@ EmolgaEvosAttacks:
 	db 38, ENCORE
 	db 42, DISCHARGE ; Volt Switch
 	db 46, AGILITY
-	db 50, ZAP_CANNON ; Discharge
+	db 50, THUNDER ; Discharge
 	db 0 ; no more level-up moves
 
 VulpixEvosAttacks:
@@ -4267,7 +4267,7 @@ KlinkEvosAttacks:
 	db 45, IRON_DEFENSE ; Metal Sound
 	db 48, DRAGON_DANCE ; Shift Gear
 	db 50, LOCK_ON
-	db 54, ZAP_CANNON
+	db 54, THUNDER
 	db 57, HYPER_BEAM
 	db 0 ; no more level-up moves
 
@@ -4287,7 +4287,7 @@ KlangEvosAttacks:
 	db 48, IRON_DEFENSE ; Metal Sound
 	db 52, DRAGON_DANCE ; Shift Gear
 	db 56, LOCK_ON
-	db 60, ZAP_CANNON
+	db 60, THUNDER
 	db 64, HYPER_BEAM
 	db 0 ; no more level-up moves
 
@@ -4309,7 +4309,7 @@ KlinklangEvosAttacks:
 	db 48, IRON_DEFENSE ; Metal Sound
 	db 54, DRAGON_DANCE ; Shift Gear
 	db 60, LOCK_ON
-	db 66, ZAP_CANNON
+	db 66, THUNDER
 	db 72, HYPER_BEAM
 	db 0 ; no more level-up moves
 
@@ -4509,7 +4509,7 @@ CorphishEvosAttacks:
 	db 34, SWAGGER ; Taunt
 	db 37, SWORDS_DANCE
 	db 39, CRUNCH
-	db 43, AQUA_TAIL ; Crabhammer
+	db 43, CRABHAMMER ; Crabhammer
 	db 48, DRAGON_DANCE ; Guillotine
 	db 0 ; no more level-up moves
 
@@ -4533,7 +4533,7 @@ CrawdauntEvosAttacks:
 	db 36, SWAGGER ; Taunt
 	db 40, SWORDS_DANCE
 	db 43, CRUNCH
-	db 48, AQUA_TAIL ; Crabhammer
+	db 48, CRABHAMMER ; Crabhammer
 	db 54, DRAGON_DANCE ; Guillotine
 	db 0 ; no more level-up moves
 
@@ -4733,13 +4733,13 @@ EelektrikEvosAttacks:
 	db 54, GLARE ; Coil
 	db 59, WILD_CHARGE
 	; Skipped Gastro Acid
-	db 64, ZAP_CANNON
+	db 64, THUNDER
 	db 0 ; no more level-up moves
 
 EelektrossEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, CRUNCH
-	db 1, ZAP_CANNON
+	db 1, THUNDER
 	db 1, GLARE ; Coil
 	db 1, SLASH ; Crush Claw
 	db 1, HEADBUTT
@@ -5155,7 +5155,7 @@ GenesectEvosAttacks:
 	db 51, X_SCISSOR
 	db 55, BUG_BUZZ
 	db 62, SCARY_FACE ; Simple Beam
-	db 66, ZAP_CANNON
+	db 66, THUNDER
 	db 73, HYPER_BEAM
 	db 77, SELFDESTRUCT
 	db 0 ; no more level-up moves
