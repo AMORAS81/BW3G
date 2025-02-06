@@ -149,10 +149,10 @@ AlphabeticalPokedexOrder:
 	db MAREEP
 	db MARILL
 	db MAWILE
-	db MEDICHAM
-	db MEDITITE
 	db METAGROSS
 	db METANG
+	db MIENFOO
+	db MIENSHAO
 	db MUNNA
 	db MUSHARNA
 	db NINETALES
