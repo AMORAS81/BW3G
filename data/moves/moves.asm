@@ -273,4 +273,3 @@ Moves:
 	move ATTRACT,      EFFECT_ATTRACT,             0, NORMAL, STATUS,     100, 15,   0
 	move STRUGGLE,     EFFECT_RECOIL_HIT,         50, NORMAL, PHYSICAL,   100,  1,   0	
 		
-	
