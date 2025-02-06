@@ -153,8 +153,8 @@ NewPokedexOrder:
 	db SWABLU     ; 98
 	db ALTARIA    ; 99
 	db AUDINO     ; 9a
-	db MEDITITE   ; 9b
-	db MEDICHAM   ; 9c
+	db MIENFOO    ; 9b
+	db MIENSHAO   ; 9c
 	db MANTYKE    ; 9d
 	db MANTINE    ; 9e
 	db EEVEE      ; 9f
