@@ -87,8 +87,8 @@ NewPokedexOrder:
 	db CRUSTLE    ; 54
 	db DRIFLOON   ; 55
 	db DRIFBLIM   ; 56
-	db MEDITITE   ; 57
-	db MEDICHAM   ; 58
+	db MIENFOO    ; 57
+	db MIENSHAO   ; 58
 	db HOUNDOUR   ; 59
 	db HOUNDOOM   ; 5a
 	db YAMASK     ; 5b
