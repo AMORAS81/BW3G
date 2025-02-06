@@ -19,7 +19,7 @@ YoungsterGroup:
 
 	; YOUNGSTER (OUTSKIRTS)
 	db "RYAN@", TRAINERTYPE_STAT_EXP
-	db 11, MEDITITE
+	db 11, MIENFOO
 	dw $0600, $0600, $0600, $0600, $0600
 	db 11, SCRAGGY
 	dw $0600, $0600, $0600, $0600, $0600
@@ -598,7 +598,7 @@ BackpackerFGroup:
 	db "BAILEY@", TRAINERTYPE_STAT_EXP
 	db 17, MAREEP
 	dw $0A00, $0A00, $0A00, $0A00, $0A00
-	db 17, MEDITITE
+	db 17, MIENFOO
 	dw $0A00, $0A00, $0A00, $0A00, $0A00
 	db -1 ; end
 	
@@ -740,7 +740,7 @@ BlackbeltGroup:
 
 	; BLACKBELT_T (WELLSPRING)
 	db "KENJI@", TRAINERTYPE_STAT_EXP
-	db 31, MEDITITE
+	db 31, MIENFOO
 	dw $3800, $3800, $3800, $3800, $3800
 	db 33, RIOLU
 	dw $3800, $3800, $3800, $3800, $3800
@@ -764,7 +764,7 @@ BlackbeltGroup:
 
 	; BLACKBELT_T (R18)
 	db "SHINSUKE@", TRAINERTYPE_STAT_EXP
-	db 33, MEDITITE
+	db 33, MIENFOO
 	dw $3800, $3800, $3800, $3800, $3800
 	db 30, SAWK
 	dw $3800, $3800, $3800, $3800, $3800
@@ -782,7 +782,7 @@ BlackbeltGroup:
 	db "KYO@", TRAINERTYPE_STAT_EXP
 	db 45, TIMBURR
 	dw $4800, $4800, $4800, $4800, $4800
-	db 47, MEDICHAM
+	db 50, MIENSHAO
 	dw $4800, $4800, $4800, $4800, $4800
 	db -1 ; end
 
@@ -852,7 +852,7 @@ BattleGirlGroup:
 	db "RINA@", TRAINERTYPE_STAT_EXP
 	db 45, TIMBURR
 	dw $4800, $4800, $4800, $4800, $4800
-	db 45, MEDITITE
+	db 45, MIENFOO
 	dw $4800, $4800, $4800, $4800, $4800
 	db 47, GURDURR
 	dw $4800, $4800, $4800, $4800, $4800
@@ -866,13 +866,13 @@ BattleGirlGroup:
 
 	; BATTLE_GIRL (CHARGESTONE)
 	db "CHI@", TRAINERTYPE_STAT_EXP
-	db 47, MEDICHAM
+	db 50, MIENSHAO
 	dw $4C00, $4C00, $4C00, $4C00, $4C00
 	db -1 ; end
 
 	; BATTLE_GIRL (NACRENE_OUTSKIRT)
 	db "LEE@", TRAINERTYPE_STAT_EXP
-	db 28, MEDITITE
+	db 28, MIENFOO
 	dw $2C00, $2C00, $2C00, $2C00, $2C00
 	db 28, TIMBURR
 	dw $2C00, $2C00, $2C00, $2C00, $2C00
@@ -884,7 +884,7 @@ BattleGirlGroup:
 	db "MIKI@", TRAINERTYPE_STAT_EXP
 	db 55, GURDURR
 	dw $5C00, $5C00, $5C00, $5C00, $5C00
-	db 57, MEDICHAM
+	db 57, MIENSHAO
 	dw $5C00, $5C00, $5C00, $5C00, $5C00
 	db -1 ; end
 	
@@ -1181,7 +1181,7 @@ NurseGroup:
 	db 18, MUNNA
 	dw $0E00, $0E00, $0E00, $0E00, $0E00
 	db BERRY
-	db 20, MEDITITE
+	db 20, MIENFOO
 	dw $0E00, $0E00, $0E00, $0E00, $0E00
 	db GOLD_BERRY
 	db -1 ; end
