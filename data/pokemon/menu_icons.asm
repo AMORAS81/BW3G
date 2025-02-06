@@ -87,8 +87,8 @@ MonMenuIcons:
 	db ICON_CRUSTLE    ; 54
 	db ICON_DRIFLOON   ; 55
 	db ICON_DRIFBLIM   ; 56
-	db ICON_MEDITITE   ; 57
-	db ICON_MEDICHAM   ; 58
+	db ICON_MIENFOO    ; 57
+	db ICON_MIENSHAO   ; 58
 	db ICON_HOUNDOUR   ; 59
 	db ICON_HOUNDOOM   ; 5a
 	db ICON_YAMASK     ; 5b
