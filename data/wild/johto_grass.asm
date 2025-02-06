@@ -703,7 +703,7 @@ JohtoGrassWildMons:
 	; morn
 	db 18, MARILL
 	db 19, DUCKLETT
-	db 18, MEDITITE
+	db 18, MIENFOO
 	db 18, VULPIX
 	db 17, SWABLU
 	db 19, AUDINO
@@ -714,7 +714,7 @@ JohtoGrassWildMons:
 	; day
 	db 18, MARILL
 	db 19, DUCKLETT
-	db 18, MEDITITE
+	db 18, MIENFOO
 	db 18, VULPIX
 	db 17, SWABLU
 	db 19, AUDINO
@@ -725,7 +725,7 @@ JohtoGrassWildMons:
 	; nite
 	db 18, MARILL
 	db 19, DUCKLETT
-	db 18, MEDITITE
+	db 18, MIENFOO
 	db 18, VULPIX
 	db 17, SWABLU
 	db 19, AUDINO
@@ -738,7 +738,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 19, DUCKLETT
-	db 20, MEDITITE
+	db 20, MIENFOO
 	db 18, SWABLU
 	db 18, VULPIX
 	db 18, CROAGUNK
@@ -749,7 +749,7 @@ JohtoGrassWildMons:
 	db 20, SKORUPI
 	; day
 	db 19, DUCKLETT
-	db 20, MEDITITE
+	db 20, MIENFOO
 	db 18, SWABLU
 	db 18, VULPIX
 	db 18, CROAGUNK
@@ -760,7 +760,7 @@ JohtoGrassWildMons:
 	db 20, SKORUPI
 	; nite
 	db 19, DUCKLETT
-	db 20, MEDITITE
+	db 20, MIENFOO
 	db 18, SWABLU
 	db 18, VULPIX
 	db 18, CROAGUNK
@@ -1064,7 +1064,7 @@ JohtoGrassWildMons:
 	db 29, JIGGLYPUFF
 	db 28, LIEPARD
 	db 28, WATCHOG
-	db 29, MEDITITE
+	db 29, MIENFOO
 	db 27, MUNNA
 	db 28, GOLBAT
 	db 30, LIEPARD
@@ -1075,7 +1075,7 @@ JohtoGrassWildMons:
 	db 29, JIGGLYPUFF
 	db 28, LIEPARD
 	db 28, WATCHOG
-	db 29, MEDITITE
+	db 29, MIENFOO
 	db 27, MUNNA
 	db 28, GOLBAT
 	db 30, LIEPARD
@@ -1086,7 +1086,7 @@ JohtoGrassWildMons:
 	db 29, JIGGLYPUFF
 	db 28, LIEPARD
 	db 28, WATCHOG
-	db 29, MEDITITE
+	db 29, MIENFOO
 	db 27, MUNNA
 	db 28, GOLBAT
 	db 30, LIEPARD
@@ -1892,7 +1892,7 @@ JohtoGrassWildMons:
 	db 38, LITWICK
 	db 37, BALTOY
 	db 36, GOLETT
-	db 37, MEDITITE
+	db 37, MIENFOO
 	db 36, SNORUNT
 	db 37, HAUNTER
 	db 37, DUOSION
@@ -1903,7 +1903,7 @@ JohtoGrassWildMons:
 	db 38, LITWICK
 	db 37, BALTOY
 	db 36, GOLETT
-	db 37, MEDITITE
+	db 37, MIENFOO
 	db 36, SNORUNT
 	db 37, HAUNTER
 	db 37, DUOSION
@@ -1914,7 +1914,7 @@ JohtoGrassWildMons:
 	db 38, LITWICK
 	db 37, BALTOY
 	db 36, GOLETT
-	db 37, MEDITITE
+	db 37, MIENFOO
 	db 36, SNORUNT
 	db 37, HAUNTER
 	db 37, DUOSION
@@ -2648,7 +2648,7 @@ JohtoGrassWildMons:
 	db 52, KROKOROK
 	db 51, GABITE
 	db 52, EXCADRILL
-	db 50, MEDICHAM
+	db 50, MIENSHAO
 	db 51, FERROTHORN
 	db 52, TOXICROAK
 	db 50, PUPITAR
@@ -2659,7 +2659,7 @@ JohtoGrassWildMons:
 	db 52, KROKOROK
 	db 51, GABITE
 	db 52, EXCADRILL
-	db 50, MEDICHAM
+	db 50, MIENSHAO
 	db 51, FERROTHORN
 	db 52, TOXICROAK
 	db 50, PUPITAR
@@ -2670,7 +2670,7 @@ JohtoGrassWildMons:
 	db 52, KROKOROK
 	db 51, GABITE
 	db 52, EXCADRILL
-	db 50, MEDICHAM
+	db 50, MIENSHAO
 	db 51, FERROTHORN
 	db 52, TOXICROAK
 	db 50, PUPITAR
@@ -2684,7 +2684,7 @@ JohtoGrassWildMons:
 	db 52, KROKOROK
 	db 51, GABITE
 	db 52, EXCADRILL
-	db 50, MEDICHAM
+	db 50, MIENSHAO
 	db 51, FERROTHORN
 	db 52, TOXICROAK
 	db 50, PUPITAR
@@ -2695,7 +2695,7 @@ JohtoGrassWildMons:
 	db 52, KROKOROK
 	db 51, GABITE
 	db 52, EXCADRILL
-	db 50, MEDICHAM
+	db 50, MIENSHAO
 	db 51, FERROTHORN
 	db 52, TOXICROAK
 	db 50, PUPITAR
@@ -2706,7 +2706,7 @@ JohtoGrassWildMons:
 	db 52, KROKOROK
 	db 51, GABITE
 	db 52, EXCADRILL
-	db 50, MEDICHAM
+	db 50, MIENSHAO
 	db 51, FERROTHORN
 	db 52, TOXICROAK
 	db 50, PUPITAR
