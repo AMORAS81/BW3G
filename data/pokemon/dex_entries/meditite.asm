@@ -1,10 +1,10 @@
-	db "MEDITATE@" ; species name
-	dw 200, 247 ; height, weight
+	db "MARTIAL ARTS@" ; species name
+	dw 211, 441 ; height, weight
 
-	db "It heightens its"
-	next "energy through"
-	next "meditation. It can"
+	db "It takes pride in"
+	next "the speed at which"
+	next "it can use moves."
 
-	page "survive on only"
-	next "one BERRY a day,"
-	next "due to this.@"
+	page "What it loses in"
+	next "power, it makes up"
+	next "for in quantity.@"
