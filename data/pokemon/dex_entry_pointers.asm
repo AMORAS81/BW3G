@@ -86,8 +86,8 @@ PokedexDataPointerTable:
 	dw CrustlePokedexEntry
 	dw DrifloonPokedexEntry
 	dw DrifblimPokedexEntry
-	dw MedititePokedexEntry
-	dw MedichamPokedexEntry
+	dw MienfooPokedexEntry
+	dw MienshaoPokedexEntry
 	dw HoundourPokedexEntry
 	dw HoundoomPokedexEntry
 	dw YamaskPokedexEntry
