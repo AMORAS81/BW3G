@@ -88,4 +88,5 @@ ContactMoves:
 	db GEAR_GRIND
 	db DRAININGKISS
 	db PLAY_ROUGH
+	db CRABHAMMER
 	db -1
