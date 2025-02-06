@@ -174,10 +174,10 @@ PokemonPicPointers::
 	dba DrifloonBackpic
 	dba DrifblimFrontpic
 	dba DrifblimBackpic
-	dba MedititeFrontpic
-	dba MedititeBackpic
-	dba MedichamFrontpic
-	dba MedichamBackpic
+	dba MienfooFrontpic
+	dba MienfooBackpic
+	dba MienshaoFrontpic
+	dba MienshaoBackpic
 	dba HoundourFrontpic
 	dba HoundourBackpic
 	dba HoundoomFrontpic
