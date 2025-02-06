@@ -6,4 +6,4 @@
 	next "fighter plane. It"
 
 	page "never allows its"
-	next "prey to escape."
+	next "prey to escape.@"
