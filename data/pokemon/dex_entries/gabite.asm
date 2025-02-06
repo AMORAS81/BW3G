@@ -7,4 +7,4 @@
 
 	page "loot is constantly"
 	next "targeted by"
-	next "thieves."
+	next "thieves.@"
