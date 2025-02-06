@@ -7,4 +7,4 @@
 
 	page "lives in caves"
 	next "warmed by"
-	next "geothermal heat."
+	next "geothermal heat.@"
