@@ -91,8 +91,8 @@ MonMenuIconPals:
 	icon_pals GREY,		GREEN ; KINGLER
 	icon_pals PURPLE,	RED ; DRIFLOON
 	icon_pals PURPLE,	RED ; DRIFBLIM
-	icon_pals PINK,		GREY ; MEDITITE
-	icon_pals PURPLE,	GREY ; HYPNO
+	icon_pals PINK,		GREY ; MIENFOO  
+	icon_pals PURPLE,	GREY ; MIENSHAO
 	icon_pals RED,		BLUE ; HOUNDOUR
 	icon_pals RED,		BLUE ; HOUNDOOM
 	icon_pals RED,		GREY ; YAMASK
