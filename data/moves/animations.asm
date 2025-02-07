@@ -4382,7 +4382,7 @@ BattleAnim_MudSlap:
 
 BattleAnim_Crabhammer:
 	anim_1gfx ANIM_GFX_HIT
-	anim_bgeffect ANIM_BG_1F $40, $2, $0
+	anim_bgeffect ANIM_BG_1F, $40, $2, $0
 	anim_wait 48
 	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $8, $3
 .loop
