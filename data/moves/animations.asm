@@ -4381,13 +4381,13 @@ BattleAnim_MudSlap:
 	anim_ret
 
 BattleAnim_Crabhammer:
-	anim_1gfx BATTLE_ANIM_GFX_HIT
-	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0
+	anim_1gfx ANIM_GFX_HIT
+	anim_bgeffect ANIM_BG_1F $40, $2, $0
 	anim_wait 48
-	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $3
+	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $8, $3
 .loop
 	anim_sound 0, 1, SFX_MEGA_PUNCH
-	anim_obj BATTLE_ANIM_OBJ_HIT_BIG_YFIX, 136, 56, $0
+	anim_obj ANIM_OBJ_00, 136, 56, $0
 	anim_wait 12
 	anim_loop 3, .loop
 	anim_ret
