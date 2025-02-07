@@ -87,8 +87,8 @@
 	const ICON_CRUSTLE    ; 54
 	const ICON_DRIFLOON   ; 55
 	const ICON_DRIFBLIM   ; 56
-	const ICON_MEDITITE   ; 57
-	const ICON_MEDICHAM   ; 58
+	const ICON_MIENFOO    ; 57
+	const ICON_MIENSHAO   ; 58
 	const ICON_HOUNDOUR   ; 59
 	const ICON_HOUNDOOM   ; 5a
 	const ICON_YAMASK     ; 5b
