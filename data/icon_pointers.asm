@@ -87,8 +87,8 @@ IconPointers:
 	dw CrustleIcon
 	dw DrifloonIcon
 	dw DrifblimIcon
-	dw MedititeIcon
-	dw MedichamIcon
+	dw MienfooIcon
+	dw MienshaoIcon
 	dw HoundourIcon
 	dw HoundoomIcon
 	dw YamaskIcon
