@@ -142,7 +142,9 @@ AspertiaGroupSprites:
 	db SPRITE_TEACHER
 	db SPRITE_GRAMPS
 	db SPRITE_POKEFAN_M
-	; 8 of max 9 walking sprites
+	db SPRITE_BREEDER_M
+	db SPRITE_BREEDER_F
+	; 7 of max 9 walking sprites
 	db SPRITE_POKE_BALL
 	db 0 ; end
 
@@ -157,6 +159,8 @@ FloccesyGroupSprites:
 	db SPRITE_TWIN
 	db SPRITE_COOLTRAINER_F
 	db SPRITE_POKEFAN_M
+	;db SPRITE_BREEDER_M
+	;db SPRITE_BREEDER_F
 	; 9 of max 9 walking sprites
 	db SPRITE_POKE_BALL
 	db SPRITE_FRUIT_TREE
@@ -264,6 +268,8 @@ DriftveilGroupSprites:
 	db SPRITE_YOUNGSTER
 	db SPRITE_SCIENTIST
 	db SPRITE_SCIENTIST_F
+	;db SPRITE_BREEDER_M
+	;db SPRITE_BREEDER_F
 	; 8 of max 9 walking sprites
 	db SPRITE_POKE_BALL
 	db SPRITE_CABLE
@@ -280,6 +286,8 @@ MistraltonGroupSprites:
 	db SPRITE_COOLTRAINER_F
 	db SPRITE_SKYLA
 	db SPRITE_TEACHER
+	;db SPRITE_BREEDER_M
+	;db SPRITE_BREEDER_F
 	; 8 of max 9 walking sprites
 	db SPRITE_FRUIT_TREE
 	db SPRITE_POKE_BALL

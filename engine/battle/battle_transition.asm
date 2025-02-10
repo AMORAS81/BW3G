@@ -813,6 +813,34 @@ INCLUDE "gfx/overworld/leader_battle.pal"
 	ld de, PokeBallTransition
 	ret
 
+.PlasmaTrainerClasses
+	db GRUNTM
+	db GRUNTF
+	db GIALLO
+	db BRONIUS
+	db RYOKU
+	db GORM
+	db ZINZOLIN
+	db INFER_SAGE
+	db GENESIS
+	db -1
+	
+.GymLeaderTrainerClasses
+	db MARLON
+	db SHAUNTAL
+	db BURGH
+	db ROXIE
+	db CHEREN
+	db CILAN
+	db SKYLA
+	db DRAYDEN
+	db MARSHAL
+	db COLRESS
+	db ELESA
+	db GRIMSLEY
+	db JUNIPER
+	db -1
+
 PokeBallTransition:
 ; 16x16 overlay of a Poke Ball
 pusho
