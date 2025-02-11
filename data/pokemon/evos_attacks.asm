@@ -171,8 +171,9 @@ OshawottEvosAttacks:
 	db 31, ENCORE
 	db 35, AQUA_TAIL
 	; Removed Retaliate
-	db 37, SWORDS_DANCE
-	db 41, HYDRO_PUMP
+	db 41, CLOSE_COMBAT
+	db 41, SWORDS_DANCE
+	db 43, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 DewottEvosAttacks:
@@ -189,9 +190,10 @@ DewottEvosAttacks:
 	db 34, AQUA_JET
 	db 37, ENCORE
 	db 42, AQUA_TAIL
+	db 45, CLOSE_COMBAT
 	; Removed Retaliate
-	db 45, SWORDS_DANCE
-	db 50, HYDRO_PUMP
+	db 50, SWORDS_DANCE
+	db 53, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 SamurottEvosAttacks:
@@ -201,7 +203,8 @@ SamurottEvosAttacks:
 	db 1, TACKLE
 	db 1, TAIL_WHIP
 	db 1, WATER_GUN
-	db 1, FOCUS_ENERGY
+	db 1, NIGHT_SLASH
+	db 1, SCALD
 	db 5, TAIL_WHIP
 	db 7, WATER_GUN
 	db 13, FOCUS_ENERGY
@@ -214,9 +217,9 @@ SamurottEvosAttacks:
 	db 39, ENCORE
 	db 46, AQUA_TAIL
 	; Removed Retaliate
-	db 51, SWORDS_DANCE
-	db 58, HYDRO_PUMP
-	db 63, MEGAHORN ; Added at Hydro Pump's original level
+	db 51, CLOSE_COMBAT
+	db 58, SWORDS_DANCE
+	db 63, HYDRO_PUMP ; Added at Hydro Pump's original level
 	db 0 ; no more level-up moves
 
 PatratEvosAttacks:
