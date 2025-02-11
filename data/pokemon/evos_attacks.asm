@@ -166,7 +166,7 @@ OshawottEvosAttacks:
 	db 16, BUBBLEBEAM ; Razor Shell
 	db 19, FURY_CUTTER
 	db 23, WATER_PULSE
-	db 25, KARATE_CHOP ; Revenge
+	db 25, BODY_SLAM ; Revenge
 	db 29, AQUA_JET
 	db 31, ENCORE
 	db 35, AQUA_TAIL
@@ -186,7 +186,7 @@ DewottEvosAttacks:
 	db 16, BUBBLEBEAM ; Razor Shell
 	db 21, FURY_CUTTER
 	db 26, WATER_PULSE
-	db 29, KARATE_CHOP ; Revenge
+	db 29, BODY_SLAM ; Revenge
 	db 34, AQUA_JET
 	db 37, ENCORE
 	db 42, AQUA_TAIL
@@ -211,7 +211,7 @@ SamurottEvosAttacks:
 	db 16, BUBBLEBEAM ; Razor Shell
 	db 21, FURY_CUTTER
 	db 26, WATER_PULSE
-	db 29, KARATE_CHOP ; Revenge
+	db 29, BODY_SLAM ; Revenge
 	db 34, AQUA_JET
 	db 35, SLASH
 	db 39, ENCORE
